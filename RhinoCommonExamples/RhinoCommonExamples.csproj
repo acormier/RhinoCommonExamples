@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{49AB8156-38AE-4CE9-AD7D-CEF6171C769A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>RhinoCommonExamples</RootNamespace>
+    <AssemblyName>RhinoCommonExamples</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="RhinoCommon">
+      <HintPath>..\..\..\..\..\..\..\Applications\RhinoWIP.app\Contents\Resources\RhinoCommon.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Rhino.UI">
+      <HintPath>..\..\..\..\..\..\..\Applications\RhinoWIP.app\Contents\Resources\Rhino.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Eto">
+      <HintPath>..\..\..\..\..\..\..\Applications\RhinoWIP.app\Contents\Resources\Eto.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RhinoCommonExamplesCommand.cs" />
+    <Compile Include="RhinoCommonExamplesPlugin.cs" />
+    <Compile Include="ex_addcircle.cs" />
+    <Compile Include="examples_csCommand.cs" />
+    <Compile Include="ex_activeviewport.cs" />
+    <Compile Include="ex_addbrepbox.cs" />
+    <Compile Include="ex_addchildlayer.cs" />
+    <Compile Include="ex_addbackgroundbitmap.cs" />
+    <Compile Include="ex_addcone.cs" />
+    <Compile Include="ex_addcylinder.cs" />
+    <Compile Include="ex_addclippingplane.cs" />
+    <Compile Include="ex_addlayer.cs" />
+    <Compile Include="ex_addlayout.cs" />
+    <Compile Include="ex_addline.cs" />
+    <Compile Include="ex_addlineardimension.cs" />
+    <Compile Include="ex_addlineardimension2.cs" />
+    <Compile Include="ex_addmaterial.cs" />
+    <Compile Include="ex_addmesh.cs" />
+    <Compile Include="ex_addnamedview.cs" />
+    <Compile Include="ex_addnurbscircle.cs" />
+    <Compile Include="ex_addnurbscurve.cs" />
+    <Compile Include="ex_addobjectstogroup.cs" />
+    <Compile Include="ex_addsphere.cs" />
+    <Compile Include="ex_addtorus.cs" />
+    <Compile Include="ex_addtruncatedcone.cs" />
+    <Compile Include="ex_advanceddisplay.cs" />
+    <Compile Include="ex_arclengthpoint.cs" />
+    <Compile Include="ex_booleandifference.cs" />
+    <Compile Include="ex_blockinsertionpoint.cs" />
+    <Compile Include="ex_commandlineoptions.cs" />
+    <Compile Include="ex_constrainedcopy.cs" />
+    <Compile Include="ex_createblock.cs" />
+    <Compile Include="ex_curveboundingbox.cs" />
+    <Compile Include="ex_findobjectsbyname.cs" />
+    <Compile Include="ex_hatchcurve.cs" />
+    <Compile Include="ex_intersectcurves.cs" />
+    <Compile Include="ex_intersectlines.cs" />
+    <Compile Include="ex_insertknot.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>
