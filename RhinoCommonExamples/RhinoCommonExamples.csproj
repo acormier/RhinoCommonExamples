@@ -84,6 +84,19 @@
     <Compile Include="ex_intersectcurves.cs" />
     <Compile Include="ex_intersectlines.cs" />
     <Compile Include="ex_insertknot.cs" />
+    <Compile Include="ex_instancedefinitionobjects.cs" />
+    <Compile Include="ex_isocurvedensity.cs" />
+    <Compile Include="ex_movecplane.cs" />
+    <Compile Include="ex_objectdecoration.cs" />
+    <Compile Include="ex_objectdisplaymode.cs" />
+    <Compile Include="ex_orientonsrf.cs" />
+    <Compile Include="ex_sellayer.cs" />
+    <Compile Include="ex_showsurfacedirection.cs" />
+    <Compile Include="ex_sweep1.cs" />
+    <Compile Include="ex_unrollsurface.cs" />
+    <Compile Include="ex_unrollsurface2.cs" />
+    <Compile Include="ex_explodehatch.cs" />
+    <Compile Include="ex_zoomtoobject.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
