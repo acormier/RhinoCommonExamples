@@ -123,6 +123,10 @@
     <Compile Include="ex_transformbrep.cs" />
     <Compile Include="ex_tweakcolors.cs" />
     <Compile Include="ex_tweencurve.cs" />
+    <Compile Include="ex_addradialdimension.cs" />
+    <Compile Include="ex_analysismode.cs" />
+    <Compile Include="ex_arraybydistance.cs" />
+    <Compile Include="ex_rtreeclosestpoint.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

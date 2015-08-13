@@ -350,7 +350,13 @@ namespace examples_cs
       
       //Test(Examples.Splop, doc); // doesn't work
       
-      Test(Examples.AddTexture, doc);*/
+      Test(Examples.AddTexture, doc);
+
+      Test (Examples.AddRadialDimension, doc);
+      Test (Examples.AnalysisMode_on, doc);
+      Test (Examples.AnalysisMode_off, doc);
+      Test (Examples.ArrayByDistance, doc);
+      Test (Examples.RTreeClosestPoint, doc);*/
       return Rhino.Commands.Result.Success;
     }
   }
