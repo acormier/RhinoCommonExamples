@@ -65,6 +65,6 @@ partial class Examples
       Rhino.RhinoApp.WriteLine("Unable to create block definition", idef_name);
       return Rhino.Commands.Result.Failure;
     }
-    return Rhino.Commands.Result.Failure;
+    return Rhino.Commands.Result.Success;
   }
 }

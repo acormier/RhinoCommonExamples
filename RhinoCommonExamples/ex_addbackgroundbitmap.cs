@@ -4,6 +4,7 @@ partial class Examples
 {
   public static Rhino.Commands.Result AddBackgroundBitmap(Rhino.RhinoDoc doc)
   {
+    Rhino.RhinoApp.WriteLine ("hey");
     // Allow the user to select a bitmap file
     Rhino.UI.OpenFileDialog fd = new Rhino.UI.OpenFileDialog();
     fd.Filter = "Image Files (*.bmp;*.png;*.jpg)|*.bmp;*.png;*.jpg";

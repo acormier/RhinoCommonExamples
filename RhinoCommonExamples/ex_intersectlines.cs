@@ -39,9 +39,6 @@ partial class Examples
     }
 
     Point3d pt0 = line0.PointAt(a);
-    Point3d pt1 = line1.PointAt(b);
-    if (pt0 != pt1) throw new System.Exception ("pt0 != pt1");
-    // pt0 and pt1 should be equal, so we will only add pt0 to the document
     doc.Objects.AddPoint( pt0 );
     doc.Views.Redraw();
     return Rhino.Commands.Result.Success;
