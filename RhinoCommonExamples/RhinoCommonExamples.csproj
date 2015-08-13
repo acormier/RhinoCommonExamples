@@ -97,6 +97,32 @@
     <Compile Include="ex_unrollsurface2.cs" />
     <Compile Include="ex_explodehatch.cs" />
     <Compile Include="ex_zoomtoobject.cs" />
+    <Compile Include="ex_dividebylengthpoints.cs" />
+    <Compile Include="ex_determineobjectlayer.cs" />
+    <Compile Include="ex_dupborder.cs" />
+    <Compile Include="ex_edittext.cs" />
+    <Compile Include="ex_addannotationtext.cs" />
+    <Compile Include="ex_isbrepbox.cs" />
+    <Compile Include="ex_addnestedblock.cs" />
+    <Compile Include="ex_splop.cs" />
+    <Compile Include="ex_addtexture.cs" />
+    <Compile Include="ex_addmeshbox.cs" />
+    <Compile Include="ex_addtwistedcube.cs" />
+    <Compile Include="ex_boxshell.cs" />
+    <Compile Include="ex_circlecenter.cs" />
+    <Compile Include="ex_conduitdrawshadedmesh.cs" />
+    <Compile Include="ex_createspiral.cs" />
+    <Compile Include="ex_exportcontrolpoints.cs" />
+    <Compile Include="ex_extractrendermesh.cs" />
+    <Compile Include="ex_extrudebrepface.cs" />
+    <Compile Include="ex_getmultiplewithoptions.cs" />
+    <Compile Include="ex_instancearchivefilestatus.cs" />
+    <Compile Include="ex_linebetweencurves.cs" />
+    <Compile Include="ex_movegripobjects.cs" />
+    <Compile Include="ex_objectcolor.cs" />
+    <Compile Include="ex_transformbrep.cs" />
+    <Compile Include="ex_tweakcolors.cs" />
+    <Compile Include="ex_tweencurve.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

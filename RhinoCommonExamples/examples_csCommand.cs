@@ -269,7 +269,7 @@ namespace examples_cs
     protected override Rhino.Commands.Result RunCommand(RhinoDoc doc, Rhino.Commands.RunMode mode)
     {
       //RhinoCommonExamples.RhinoCommonExamplesPlugin.Instance.IncrementRunCommandCount();
-      Test(Examples.ActiveViewport, doc);
+      /*Test(Examples.ActiveViewport, doc);
       Test(Examples.AddBrepBox, doc);
       Test(Examples.AddChildLayer, doc);
       Test(Examples.AddCircle, doc);
@@ -286,16 +286,33 @@ namespace examples_cs
       Test(Examples.AddLinearDimension2, doc);
       Test(Examples.AddMaterial, doc);
       Test(Examples.AddMesh, doc);
+      Test(Examples.AddMeshBox, doc);
+      Test(Examples.AddTwistedCube, doc);
+      Test(Examples.BoxShell, doc);
+      Test(Examples.CircleCenter, doc);
+      Test(Examples.ConduitDrawShadedMesh, doc);
+      Test(Examples.CreateSpiral, doc);
+      Test(Examples.ExportControlPoints, doc);
+      Test(Examples.ExtractRenderMesh, doc);
+      Test(Examples.ExtrudeBrepFace, doc);
+      Test(Examples.GetMultipleWithOptions, doc);
+      Test(Examples.InstanceArchiveFileStatus, doc);
+      Test(Examples.LineBetweenCurves, doc);
+      Test(Examples.MoveGripObjects, doc);
 
+      Test(Examples.ObjectColor, doc); // doesn't work.  SelColor not implemented yet.
+
+      Test(Examples.TransformBrep, doc);
+      Test(Examples.TweakColors, doc);
+      Test(Examples.TweenCurve, doc);
+      
       //Test(Examples.AddNamedView, doc); // doesn't work.  Need to have a look
 
       Test(Examples.AddNurbsCircle, doc);
       Test(Examples.AddNurbsCurve, doc);
       Test(Examples.AddObjectsToGroup, doc);
       Test(Examples.AddSphere, doc);
-
-//      Test(Examples.AddAnnotationText, doc);
-
+      Test(Examples.AddAnnotationText, doc);
       Test(Examples.AddTorus, doc);
       Test(Examples.AddTruncatedCone, doc);
       Test(Examples.AdvancedDisplay, doc);
@@ -306,20 +323,20 @@ namespace examples_cs
       Test(Examples.ConstrainedCopy, doc);
       Test(Examples.CreateBlock, doc);
       Test(Examples.CurveBoundingBox, doc);
-//      Test(Examples.DivideByLengthPoints, doc);
-//      Test(Examples.DetermineObjectLayer, doc);
-//      Test(Examples.DupBorder, doc);
-//      Test(Examples.EditText, doc);
+      Test(Examples.DivideByLengthPoints, doc);
+      Test(Examples.DetermineObjectLayer, doc);
+      Test(Examples.DupBorder, doc);
+      Test(Examples.EditText, doc);
       Test(Examples.FindObjectsByName, doc);
       Test(Examples.HatchCurve, doc);
       Test(Examples.IntersectCurves, doc);
       Test(Examples.InsertKnot, doc);
       Test(Examples.IntersectLines, doc);
       Test(Examples.InstanceDefinitionObjects, doc);
-//      Test(Examples.TestBrepBox, doc);
+      Test(Examples.IsBrepBox, doc);
       Test(Examples.IsocurveDensity, doc);
       Test(Examples.MoveCPlane, doc);
-//      Test(Examples.AddNestedBlock, doc);
+      Test(Examples.AddNestedBlock, doc);
       Test(Examples.ObjectDecoration, doc);
       Test(Examples.ObjectDisplayMode, doc);
       Test(Examples.OrientOnSrf, doc);
@@ -330,7 +347,10 @@ namespace examples_cs
       Test(Examples.UnrollSurface2, doc);
       Test(Examples.ZoomToObject, doc);
       Test(Examples.ExplodeHatch, doc);
-//      Test(Examples.Splop, doc);
+      
+      //Test(Examples.Splop, doc); // doesn't work
+      
+      Test(Examples.AddTexture, doc);*/
       return Rhino.Commands.Result.Success;
     }
   }
