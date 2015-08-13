@@ -352,11 +352,17 @@ namespace examples_cs
       
       Test(Examples.AddTexture, doc);
 
+      // the rest were converted from stand alone commands
       Test (Examples.AddRadialDimension, doc);
       Test (Examples.AnalysisMode_on, doc);
       Test (Examples.AnalysisMode_off, doc);
       Test (Examples.ArrayByDistance, doc);
-      Test (Examples.RTreeClosestPoint, doc);*/
+      Test (Examples.RTreeClosestPoint, doc);
+      Test (Examples.ConduitArrowHeads, doc);*/
+
+      //Test (Examples.ConduitBitmap, doc); // doesn't work.  Had to remove ex_conduitbitmap.cs from project as it crashes Rhino
+
+      /*Test (Examples.CopyGroups, doc);*/
       return Rhino.Commands.Result.Success;
     }
   }

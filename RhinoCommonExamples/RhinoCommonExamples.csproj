@@ -127,6 +127,8 @@
     <Compile Include="ex_analysismode.cs" />
     <Compile Include="ex_arraybydistance.cs" />
     <Compile Include="ex_rtreeclosestpoint.cs" />
+    <Compile Include="ex_conduitarrowheads.cs" />
+    <Compile Include="ex_copygroups.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
