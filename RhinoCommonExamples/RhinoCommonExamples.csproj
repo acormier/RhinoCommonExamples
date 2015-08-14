@@ -188,6 +188,25 @@
     <Compile Include="ex_principalcurvature.cs" />
     <Compile Include="ex_instancedefinitionnames.cs" />
     <Compile Include="ex_instancedefinitiontree.cs" />
+    <Compile Include="ex_projectpointstobreps.cs" />
+    <Compile Include="ex_projectpointstomeshesex.cs" />
+    <Compile Include="ex_renameblock.cs" />
+    <Compile Include="ex_renamelayer.cs" />
+    <Compile Include="ex_reparameterizecrv.cs" />
+    <Compile Include="ex_replacecolordialog.cs" />
+    <Compile Include="ex_replacehatchpattern.cs" />
+    <Compile Include="ex_setrhinopageviewwidthheight.cs" />
+    <Compile Include="ex_selectobjectsinobjectgroups.cs" />
+    <Compile Include="ex_setactiveview.cs" />
+    <Compile Include="ex_setviewname.cs" />
+    <Compile Include="ex_singlecolorbackfaces.cs" />
+    <Compile Include="ex_splitbrepwithplane.cs" />
+    <Compile Include="ex_spritedrawing.cs" />
+    <Compile Include="ex_surfacefromcorners.cs" />
+    <Compile Include="ex_textjustify.cs" />
+    <Compile Include="ex_tightboundingbox.cs" />
+    <Compile Include="ex_userdata.cs" />
+    <Compile Include="ex_viewportresolution.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

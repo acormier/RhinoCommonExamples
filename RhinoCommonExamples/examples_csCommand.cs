@@ -437,8 +437,36 @@ namespace examples_cs
 
       /*Test (Examples.PrePostPick, doc);
       Test (Examples.PrincipalCurvature, doc);
-      Test (Examples.InstanceDefinitionNames, doc);*/
+      Test (Examples.InstanceDefinitionNames, doc);
       Test (Examples.InstanceDefinitionTree, doc);
+      Test (Examples.ProjectPointsToBreps, doc);
+      Test (Examples.ProjectPointsToMeshesEx, doc);
+      Test (Examples.RenameBlock, doc);
+      Test (Examples.RenameLayer, doc);
+      Test (Examples.ReparameterizeCurve, doc);*/
+
+      //Test (Examples.ReplaceColorDialog, doc); // doesn't work.  investigate
+
+      /*Test (Examples.ReplaceHatchPattern, doc);
+      Test (Examples.SetRhinoPageViewWidthAndHeight, doc);*/
+
+      //Test (Examples.SelByUserText, doc); // doesn't work.  Has to derive from SelCommand.  Removed ex_selbyusertext.cs from project
+      //Test (Examples.SelectObjectsInObjectGroups, doc); // doesn't work.  exception on line 26.
+
+      /*Test (Examples.SetActiveView, doc);
+      Test (Examples.SetViewName, doc);*/
+
+      //Test (Examples.SingleColorBackfaces, doc); // doesn't work.  look into
+
+      /*Test (Examples.SplitBrepsWithPlane, doc);*/
+
+      //Test (Examples.SpriteDrawing, doc); // doesn't work.  crash
+
+      /*Test (Examples.SurfaceFromCorners, doc);
+      Test (Examples.TextJustify, doc);
+      Test (Examples.TightBoundingBox, doc);
+      Test (Examples.Userdata, doc);
+      Test (Examples.ViewportResolution, doc);*/
       return Rhino.Commands.Result.Success;
     }
   }
