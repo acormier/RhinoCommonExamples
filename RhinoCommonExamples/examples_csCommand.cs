@@ -352,7 +352,7 @@ namespace examples_cs
       
       Test(Examples.AddTexture, doc);
 
-      // the rest were converted from stand alone commands
+      //// the rest were converted from stand alone commands
       Test (Examples.AddRadialDimension, doc);
       Test (Examples.AnalysisMode_on, doc);
       Test (Examples.AnalysisMode_off, doc);
@@ -362,7 +362,68 @@ namespace examples_cs
 
       //Test (Examples.ConduitBitmap, doc); // doesn't work.  Had to remove ex_conduitbitmap.cs from project as it crashes Rhino
 
-      /*Test (Examples.CopyGroups, doc);*/
+      /*Test (Examples.CopyGroups, doc);
+      Test (Examples.CreateMeshFromBrep, doc);
+      Test (Examples.CreateSurfaceFromPointsAndKnots, doc);
+      Test (Examples.CrvDeviation, doc);
+      Test (Examples.BrepFromCurveBBox, doc);
+      Test (Examples.FindCurveParameterAtPoint, doc);
+      Test (Examples.ReverseCurve, doc);
+      Test (Examples.CurveSurfaceIntersect, doc);
+      Test (Examples.CustomGeometryFilter, doc);*/
+
+      //Test (Examples.CustomPython, doc); // doesn't work.
+
+      /*Test (Examples.CustomUndo, doc);
+      Test (Examples.DeleteBlock, doc);
+      Test (Examples.DetermineCurrentLanguage, doc);
+      Test (Examples.ChangeDimensionStyle, doc);
+      Test (Examples.DisplayConduit, doc);
+      Test (Examples.DisplayOrder, doc);
+      Test (Examples.DisplayPrecision, doc);
+      Test (Examples.DivideCurveBySegments, doc);
+      Test (Examples.DivideCurveStraight, doc);
+      Test (Examples.MovePointObjects, doc);
+      Test (Examples.MovePointObjectsNonUniform, doc);*/
+
+      //Test (Examples.DrawOverlay, doc); // doesn't work.
+
+      /*Test (Examples.DrawString, doc);
+      Test (Examples.DuplicateObject, doc);
+      Test (Examples.DupMeshBoundary, doc);
+      Test (Examples.EdgeSrf, doc);
+      Test (Examples.FurthestZOnSurfaceGivenXY, doc);
+      Test (Examples.DetermineNormalDirectionOfBrepFace, doc);
+      Test (Examples.ExtendCurve, doc);
+      Test (Examples.ExtendSurface, doc);
+      Test (Examples.ExtractIsoCurve, doc);
+      Test (Examples.FilletCurves, doc);
+      Test (Examples.GetAngle, doc);
+      Test (Examples.GetPointDynamicDraw, doc);*/
+
+      //Test (Examples.ReadDimensionText, doc); // doesn't work : bug - annotation.DisplayText returns an empty string
+
+      /*Test (Examples.GetUUID, doc);*/
+
+      // Test (Examples.Gumball, doc); // doesn't work : remove ex_gumball.cs from project or it won't compile.
+      // Test (Examples.IntersectLineCircle, doc); // doesn't work : GetLine is not implemented on the mac
+
+      /*Test (Examples.IsPlanarSurfaceInPlane, doc);
+      Test (Examples.Leader, doc);
+      Test (Examples.LockLayer, doc);
+      Test (Examples.Loft, doc);
+      Test (Examples.ContourCurves, doc);*/
+
+      //Test(Examples.MaximizeView, doc); // donesn't work.  Has win32 references so ex_maximizeview.cs is not added to project.
+
+      /*Test (Examples.DrawMesh, doc);
+      Test (Examples.MeshVolume, doc);*/
+
+      //Test (Examples.ModifyLightColor, doc); // doesn't work. SelLight not implemented.
+      //Test (Examples.ModifyObjectColor, doc); // doesn't work. SelColor not implemented.
+
+      /*Test (Examples.MoveObjectsToCurrentLayer, doc);
+      Test (Examples.NurbsCurveIncreaseDegree, doc);*/
       return Rhino.Commands.Result.Success;
     }
   }
