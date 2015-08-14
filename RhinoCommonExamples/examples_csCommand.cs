@@ -423,7 +423,22 @@ namespace examples_cs
       //Test (Examples.ModifyObjectColor, doc); // doesn't work. SelColor not implemented.
 
       /*Test (Examples.MoveObjectsToCurrentLayer, doc);
-      Test (Examples.NurbsCurveIncreaseDegree, doc);*/
+      Test (Examples.NurbsCurveIncreaseDegree, doc);
+      Test (Examples.NurbsSurfaceIncreaseDegree, doc);
+      Test (Examples.ObjectIterator, doc);
+      Test (Examples.RenameObject, doc);
+      Test (Examples.OffsetCurve, doc);
+      Test (Examples.Ortho, doc);
+      Test (Examples.PickPoints, doc);
+      Test (Examples.PickPoint, doc);
+      Test (Examples.PlanarSurface, doc);*/
+
+      //Test (Examples.PointAtCursor, doc); // doesn't work.  Has win32 references so ex_pointatcursor.cs is not added to project.
+
+      /*Test (Examples.PrePostPick, doc);
+      Test (Examples.PrincipalCurvature, doc);
+      Test (Examples.InstanceDefinitionNames, doc);*/
+      Test (Examples.InstanceDefinitionTree, doc);
       return Rhino.Commands.Result.Success;
     }
   }

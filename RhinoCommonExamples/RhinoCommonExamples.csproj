@@ -176,6 +176,18 @@
     <Compile Include="ex_modifyobjectcolor.cs" />
     <Compile Include="ex_moveobjectstocurrentlayer.cs" />
     <Compile Include="ex_nurbscurveincreasedegree.cs" />
+    <Compile Include="ex_nurbssurfaceincreasedegree.cs" />
+    <Compile Include="ex_objectiterator.cs" />
+    <Compile Include="ex_renameobject.cs" />
+    <Compile Include="ex_offsetcurve.cs" />
+    <Compile Include="ex_ortho.cs" />
+    <Compile Include="ex_pickpoints.cs" />
+    <Compile Include="ex_pickpoint.cs" />
+    <Compile Include="ex_planesurface.cs" />
+    <Compile Include="ex_prepostpick.cs" />
+    <Compile Include="ex_principalcurvature.cs" />
+    <Compile Include="ex_instancedefinitionnames.cs" />
+    <Compile Include="ex_instancedefinitiontree.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
