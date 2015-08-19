@@ -207,6 +207,9 @@
     <Compile Include="ex_tightboundingbox.cs" />
     <Compile Include="ex_userdata.cs" />
     <Compile Include="ex_viewportresolution.cs" />
+    <Compile Include="__ex_rnd.cs" />
+    <Compile Include="GetScaleXform.cs" />
+    <Compile Include="csTransformCommand.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
