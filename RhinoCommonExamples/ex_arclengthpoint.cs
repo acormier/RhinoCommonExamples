@@ -1,4 +1,7 @@
-﻿partial class Examples
+/// <summary>
+/// title: Find point on curve at distance
+/// </summary>
+partial class Examples
 {
   public static Rhino.Commands.Result ArcLengthPoint(Rhino.RhinoDoc doc)
   {

@@ -1,8 +1,10 @@
-﻿using System;
+using System;
 using Rhino;
 using Rhino.Commands;
 using Rhino.DocObjects;
-
+/// <summary>
+/// title: Set object display mode
+/// </summary>
 partial class Examples
 {
   public static Rhino.Commands.Result ObjectDisplayMode(Rhino.RhinoDoc doc)

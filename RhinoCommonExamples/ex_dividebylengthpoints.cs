@@ -1,5 +1,7 @@
-﻿using Rhino.DocObjects;
-
+using Rhino.DocObjects;
+/// <summary>
+/// title: Divide by Length Points
+/// </summary>
 partial class Examples
 {
   public static Rhino.Commands.Result DivideByLengthPoints(Rhino.RhinoDoc doc)

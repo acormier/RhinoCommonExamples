@@ -1,8 +1,7 @@
-﻿using System;
-
-using Rhino;
-using Rhino.Geometry;
-
+using System;
+/// <summary>
+/// title: Add Nested Block
+/// </summary>
 partial class Examples
 {
   public static Rhino.Commands.Result AddNestedBlock(RhinoDoc doc)

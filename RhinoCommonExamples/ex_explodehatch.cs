@@ -1,5 +1,7 @@
-﻿using Rhino.DocObjects;
-
+using Rhino.DocObjects;
+/// <summary>
+/// title: Explode a Hatch
+/// </summary>
 partial class Examples
 {
   public static Rhino.Commands.Result ExplodeHatch(Rhino.RhinoDoc doc)

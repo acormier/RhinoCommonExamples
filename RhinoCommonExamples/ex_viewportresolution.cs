@@ -1,6 +1,8 @@
-﻿using Rhino;
+using Rhino;
 using Rhino.Commands;
-
+/// <summary>
+/// title: Print Active Viewport Resolution
+/// </summary>
 partial class Examples
 {
   public static Result ViewportResolution(RhinoDoc doc)

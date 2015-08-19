@@ -1,8 +1,10 @@
-﻿using Rhino;
+using Rhino;
 using Rhino.DocObjects;
 using Rhino.Commands;
 using Rhino.Input.Custom;
-
+/// <summary>
+/// title: Read Dimension Text
+/// </summary>
 partial class Examples
 {
   public static Result ReadDimensionText(RhinoDoc doc)

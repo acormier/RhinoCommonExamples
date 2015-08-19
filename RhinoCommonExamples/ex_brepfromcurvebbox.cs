@@ -1,9 +1,11 @@
-﻿using Rhino;
+using Rhino;
 using Rhino.Geometry;
 using Rhino.Commands;
 using Rhino.Input;
 using Rhino.DocObjects;
-
+/// <summary>
+/// title: Brep from Curve Bounding Box
+/// </summary>
 partial class Examples
 {
   public static Result BrepFromCurveBBox(RhinoDoc doc)

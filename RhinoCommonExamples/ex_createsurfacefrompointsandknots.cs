@@ -1,7 +1,9 @@
-﻿using Rhino;
+using Rhino;
 using Rhino.Commands;
 using Rhino.Geometry;
-
+/// <summary>
+/// title: Create Surface From Points and Knots
+/// </summary>
 partial class Examples
 {
   public static Result CreateSurfaceFromPointsAndKnots(RhinoDoc doc)

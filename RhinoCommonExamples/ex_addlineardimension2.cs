@@ -1,6 +1,8 @@
-﻿using System;
+using System;
 using Rhino.Geometry;
-
+/// <summary>
+/// title: Add Linear Dimension2
+/// </summary>
 partial class Examples
 {
   public static Rhino.Commands.Result AddLinearDimension2(Rhino.RhinoDoc doc)

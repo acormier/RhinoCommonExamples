@@ -1,9 +1,11 @@
-﻿using Rhino;
+using Rhino;
 using Rhino.Input;
 using Rhino.Input.Custom;
 using Rhino.DocObjects;
 using Rhino.Commands;
-
+/// <summary>
+/// title: Find Curve Parameter At Point
+/// </summary>
 partial class Examples
 {
   public static Result FindCurveParameterAtPoint(RhinoDoc doc)

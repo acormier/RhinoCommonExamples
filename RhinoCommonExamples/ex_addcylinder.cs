@@ -1,4 +1,7 @@
-﻿partial class Examples
+/// <summary>
+/// title: Add Cylinder to Rhino
+/// </summary>
+partial class Examples
 {
   public static Rhino.Commands.Result AddCylinder(Rhino.RhinoDoc doc)
   {

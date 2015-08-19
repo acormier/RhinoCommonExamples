@@ -1,9 +1,11 @@
-﻿using Rhino;
+using Rhino;
 using Rhino.DocObjects;
 using Rhino.Commands;
 using Rhino.Geometry;
 using Rhino.Input;
-
+/// <summary>
+/// title: Create Radial Dimensions
+/// </summary>
 partial class Examples
 {
   public static Rhino.Commands.Result AddRadialDimension(Rhino.RhinoDoc doc)

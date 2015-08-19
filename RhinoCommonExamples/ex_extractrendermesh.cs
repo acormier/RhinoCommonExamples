@@ -1,5 +1,7 @@
-﻿using System;
-
+using System;
+/// <summary>
+/// title: Extract Render Mesh
+/// </summary>
 partial class Examples
 {
   public static Rhino.Commands.Result ExtractRenderMesh(Rhino.RhinoDoc doc)

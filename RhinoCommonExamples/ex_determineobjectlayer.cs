@@ -1,4 +1,7 @@
-﻿partial class Examples
+/// <summary>
+/// title: Determine an Object's Layer
+/// </summary>
+partial class Examples
 {
   public static Rhino.Commands.Result DetermineObjectLayer(Rhino.RhinoDoc doc)
   {

@@ -1,5 +1,7 @@
-﻿using System;
-
+using System;
+/// <summary>
+/// title: Add NURBS Curve
+/// </summary>
 partial class Examples
 {
   public static Rhino.Commands.Result AddNurbsCurve(Rhino.RhinoDoc doc)

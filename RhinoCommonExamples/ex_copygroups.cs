@@ -1,9 +1,11 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using Rhino;
 using Rhino.Commands;
 using Rhino.DocObjects;
 using Rhino.Geometry;
-
+/// <summary>
+/// title: Duplicating Objects With Group
+/// </summary>
 partial class Examples
 {
   public static Result CopyGroups(RhinoDoc doc)

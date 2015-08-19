@@ -1,4 +1,7 @@
-﻿partial class Examples
+/// <summary>
+/// title: Add Brep Box
+/// </summary>
+partial class Examples
 {
   public static Rhino.Commands.Result AddBrepBox(Rhino.RhinoDoc doc)
   {

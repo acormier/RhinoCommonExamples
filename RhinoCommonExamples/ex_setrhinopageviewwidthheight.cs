@@ -1,7 +1,9 @@
-﻿using Rhino;
+using Rhino;
 using Rhino.Commands;
 using Rhino.Input;
-
+/// <summary>
+/// title: Set RhinoPageView Width and Height
+/// </summary>
 partial class Examples
 {
   public static Result SetRhinoPageViewWidthAndHeight(RhinoDoc doc)

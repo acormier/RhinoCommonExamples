@@ -1,5 +1,7 @@
-﻿using System;
-
+using System;
+/// <summary>
+/// title: Add Line
+/// </summary>
 partial class Examples
 {
   public static Rhino.Commands.Result AddLine(Rhino.RhinoDoc doc)

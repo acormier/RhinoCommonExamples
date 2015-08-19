@@ -1,8 +1,10 @@
-﻿using Rhino;
+using Rhino;
 using Rhino.DocObjects;
 using Rhino.Commands;
 using Rhino.Input;
-
+/// <summary>
+/// title: Move Points Non Uniform
+/// </summary>
 partial class Examples
 {
   public static Result MovePointObjectsNonUniform(RhinoDoc doc)

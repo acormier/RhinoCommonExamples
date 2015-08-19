@@ -1,6 +1,8 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using Rhino.Geometry;
-
+/// <summary>
+/// title: Show Surface Direction
+/// </summary>
 partial class Examples
 {
   public static Rhino.Commands.Result ShowSurfaceDirection(Rhino.RhinoDoc doc)

@@ -1,8 +1,10 @@
-﻿using Rhino;
+using Rhino;
 using Rhino.Commands;
 using Rhino.DocObjects;
 using Rhino.Input;
-
+/// <summary>
+/// title: Get an Object's UUID
+/// </summary>
 partial class Examples
 {
   public static Result GetUUID(RhinoDoc doc)

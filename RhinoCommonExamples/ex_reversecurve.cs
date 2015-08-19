@@ -1,8 +1,10 @@
-﻿using Rhino;
+using Rhino;
 using Rhino.Commands;
 using Rhino.Input;
 using Rhino.DocObjects;
-
+/// <summary>
+/// title: Reverse Curve
+/// </summary>
 partial class Examples
 {
   public static Result ReverseCurve(RhinoDoc doc)

@@ -1,6 +1,8 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using Rhino.Display;
-
+/// <summary>
+/// title: Modifying Advanced Display Settings
+/// </summary>
 partial class Examples
 {
   // The following example code demonstrates how to modify advanced display settings using

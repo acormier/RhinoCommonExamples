@@ -1,9 +1,11 @@
-﻿using Rhino;
+using Rhino;
 using Rhino.DocObjects;
 using Rhino.Commands;
 using Rhino.Input;
 using Rhino.Geometry;
-
+/// <summary>
+/// title: Divide Curve by Segments
+/// </summary>
 partial class Examples
 {
   public static Result DivideCurveBySegments(RhinoDoc doc)

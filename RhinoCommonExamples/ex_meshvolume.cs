@@ -1,9 +1,11 @@
-﻿using Rhino;
+using Rhino;
 using Rhino.Commands;
 using Rhino.Input.Custom;
 using Rhino.Geometry;
 using Rhino.DocObjects;
-
+/// <summary>
+/// title: Volume of Meshes
+/// </summary>
 partial class Examples
 {
   public static Result MeshVolume(RhinoDoc doc)

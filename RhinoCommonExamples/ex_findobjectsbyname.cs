@@ -1,5 +1,7 @@
-﻿using System;
-
+using System;
+/// <summary>
+/// title: Find Objects by Name
+/// </summary>
 partial class Examples
 {
   public static Rhino.Commands.Result FindObjectsByName(Rhino.RhinoDoc doc)

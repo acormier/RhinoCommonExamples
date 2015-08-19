@@ -1,7 +1,9 @@
-﻿using Rhino;
+using Rhino;
 using Rhino.Geometry;
 using Rhino.Commands;
-
+/// <summary>
+/// title: Create a Plane Surface
+/// </summary>
 partial class Examples
 {
   public static Result PlanarSurface(RhinoDoc doc)

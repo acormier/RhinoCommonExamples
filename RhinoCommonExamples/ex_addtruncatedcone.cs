@@ -1,6 +1,8 @@
-﻿using System;
+using System;
 using Rhino.Geometry;
-
+/// <summary>
+/// title: Add Truncated Cone
+/// </summary>
 partial class Examples
 {
   public static Rhino.Commands.Result AddTruncatedCone(Rhino.RhinoDoc doc)

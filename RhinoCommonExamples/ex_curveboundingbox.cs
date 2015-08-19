@@ -1,4 +1,7 @@
-﻿partial class Examples
+/// <summary>
+/// title: Curve Bounding Box (world and plane oriented)
+/// </summary>
+partial class Examples
 {
   public static Rhino.Commands.Result CurveBoundingBox(Rhino.RhinoDoc doc)
   {

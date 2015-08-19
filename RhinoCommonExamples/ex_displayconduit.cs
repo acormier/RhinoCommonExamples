@@ -1,8 +1,10 @@
-﻿using Rhino;
+using Rhino;
 using Rhino.Geometry;
 using Rhino.Commands;
 using Rhino.Display;
-
+/// <summary>
+/// title: Display Conduit Introduction for RhinoCommon
+/// </summary>
 partial class Examples
 {
   static MyConduit m_conduit;

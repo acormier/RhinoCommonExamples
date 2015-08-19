@@ -1,4 +1,7 @@
-﻿partial class Examples
+/// <summary>
+/// title: Object Color
+/// </summary>
+partial class Examples
 {
   public static Rhino.Commands.Result ObjectColor(Rhino.RhinoDoc doc)
   {

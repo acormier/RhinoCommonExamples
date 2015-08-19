@@ -1,8 +1,10 @@
-﻿using Rhino;
+using Rhino;
 using Rhino.Geometry;
 using Rhino.Commands;
 using Rhino.Input.Custom;
-
+/// <summary>
+/// title: Dynamically Draw Geometry when Picking Points
+/// </summary>
 partial class Examples
 {
   public static Result GetPointDynamicDraw(RhinoDoc doc)

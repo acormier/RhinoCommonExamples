@@ -1,6 +1,8 @@
-﻿using Rhino.Commands;
+using Rhino.Commands;
 using Rhino.DocObjects;
-
+/// <summary>
+/// title: Insert Knot
+/// </summary>
 partial class Examples
 {
   public static Rhino.Commands.Result InsertKnot(Rhino.RhinoDoc doc)

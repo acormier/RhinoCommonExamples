@@ -1,4 +1,7 @@
-﻿partial class Examples
+/// <summary>
+/// title: Orient On Surface
+/// </summary>
+partial class Examples
 {
   public static Rhino.Commands.Result OrientOnSrf(Rhino.RhinoDoc doc)
   {

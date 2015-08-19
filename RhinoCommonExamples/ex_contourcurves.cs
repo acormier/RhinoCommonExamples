@@ -1,11 +1,13 @@
-﻿using System;
+using System;
 using Rhino;
 using Rhino.DocObjects;
 using Rhino.Geometry;
 using Rhino.Input;
 using Rhino.Input.Custom;
 using Rhino.Commands;
-
+/// <summary>
+/// title: Create Contour Curves
+/// </summary>
 partial class Examples
 {
   public static Result ContourCurves(RhinoDoc doc)

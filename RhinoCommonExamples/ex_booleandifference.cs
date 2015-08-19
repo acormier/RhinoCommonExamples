@@ -1,6 +1,8 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using Rhino.Commands;
-
+/// <summary>
+/// title: Boolean Difference
+/// </summary>
 partial class Examples
 {
   public static Rhino.Commands.Result BooleanDifference(Rhino.RhinoDoc doc)

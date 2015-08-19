@@ -1,4 +1,7 @@
-﻿partial class Examples
+/// <summary>
+/// title: Add a layout with a detail view
+/// </summary>
+partial class Examples
 {
   /// <summary>
   /// Generate a layout with a single detail view that zooms to a list of objects

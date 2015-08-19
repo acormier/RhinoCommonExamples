@@ -1,4 +1,7 @@
-﻿partial class Examples
+/// <summary>
+/// title: Box Shell
+/// </summary>
+partial class Examples
 {
   public static Rhino.Commands.Result BoxShell(Rhino.RhinoDoc doc)
   {

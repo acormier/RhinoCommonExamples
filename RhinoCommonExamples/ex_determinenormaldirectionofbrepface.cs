@@ -1,8 +1,10 @@
-﻿using Rhino;
+using Rhino;
 using Rhino.Input.Custom;
 using Rhino.DocObjects;
 using Rhino.Commands;
-
+/// <summary>
+/// title: Determine Normal Direction of Brep Face
+/// </summary>
 partial class Examples
 {
   public static Result DetermineNormalDirectionOfBrepFace(RhinoDoc doc)

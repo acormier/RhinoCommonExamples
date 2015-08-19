@@ -1,8 +1,10 @@
-﻿using Rhino;
+using Rhino;
 using Rhino.Commands;
 using Rhino.Input;
 using Rhino.Input.Custom;
-
+/// <summary>
+/// title: Interactively Pick an Angle
+/// </summary>
 partial class Examples
 {
   public static Result GetAngle(RhinoDoc doc)

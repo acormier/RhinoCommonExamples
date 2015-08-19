@@ -1,4 +1,7 @@
-﻿partial class Examples
+/// <summary>
+/// title: Adding Arrowheads to Curves
+/// </summary>
+partial class Examples
 {
   public static Rhino.Commands.Result ObjectDecoration(Rhino.RhinoDoc doc)
   {

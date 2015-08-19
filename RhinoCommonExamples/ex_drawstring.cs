@@ -1,9 +1,11 @@
-﻿using Rhino;
+using Rhino;
 using Rhino.DocObjects;
 using Rhino.Geometry;
 using Rhino.Commands;
 using Rhino.Input.Custom;
-
+/// <summary>
+/// title: Dynamically Drawing Text Strings
+/// </summary>
 partial class Examples
 {
   public static Result DrawString(RhinoDoc doc)

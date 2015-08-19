@@ -1,10 +1,12 @@
-﻿using Rhino;
+using Rhino;
 using Rhino.Input;
 using Rhino.Commands;
 using Rhino.DocObjects;
 using System;
 using System.Linq;
-
+/// <summary>
+/// title: Rename a Layer
+/// </summary>
 partial class Examples
 {
   public static Result RenameLayer(RhinoDoc doc)

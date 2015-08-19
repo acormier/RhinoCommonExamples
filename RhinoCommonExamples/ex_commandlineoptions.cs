@@ -1,4 +1,7 @@
-﻿partial class Examples
+/// <summary>
+/// title: Add Command Line Options
+/// </summary>
+partial class Examples
 {
   public static Rhino.Commands.Result CommandLineOptions(Rhino.RhinoDoc doc)
   {

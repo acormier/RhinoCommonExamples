@@ -1,10 +1,12 @@
-﻿using System.Linq;
+using System.Linq;
 using Rhino;
 using Rhino.Commands;
 using Rhino.DocObjects;
 using Rhino.Geometry;
 using Rhino.Input.Custom;
-
+/// <summary>
+/// title: Create a Surface from Edge Curves
+/// </summary>
 partial class Examples
 {
   public static Result EdgeSrf(RhinoDoc doc)

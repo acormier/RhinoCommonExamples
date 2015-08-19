@@ -1,4 +1,7 @@
-﻿partial class Examples
+/// <summary>
+/// title: Zoom to a Selected Object
+/// </summary>
+partial class Examples
 {
   public static Rhino.Commands.Result ZoomToObject(Rhino.RhinoDoc doc)
   {

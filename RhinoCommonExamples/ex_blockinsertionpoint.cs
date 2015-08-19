@@ -1,5 +1,7 @@
-﻿using Rhino.Commands;
-
+using Rhino.Commands;
+/// <summary>
+/// title: Obtain insertion point of block
+/// </summary>
 partial class Examples
 {
   public static Rhino.Commands.Result BlockInsertionPoint(Rhino.RhinoDoc doc)

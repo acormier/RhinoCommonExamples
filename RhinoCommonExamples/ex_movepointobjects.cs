@@ -1,10 +1,12 @@
-﻿using Rhino;
+using Rhino;
 using Rhino.DocObjects;
 using Rhino.Commands;
 using Rhino.Input;
 using Rhino.Input.Custom;
 using Rhino.Geometry;
-
+/// <summary>
+/// title: Move Points
+/// </summary>
 partial class Examples
 {
   public static Result MovePointObjects(RhinoDoc doc)

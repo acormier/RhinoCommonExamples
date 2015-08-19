@@ -1,8 +1,10 @@
-﻿using Rhino;
+using Rhino;
 using Rhino.Commands;
 using Rhino.UI;
 using Eto.Forms;
-
+/// <summary>
+/// title: Replace Rhino's Color Picking Dialog
+/// </summary>
 partial class Examples
 {
   private static ColorDialog m_dlg = null;

@@ -1,5 +1,7 @@
-﻿using System;
-
+using System;
+/// <summary>
+/// title: Create Spiral
+/// </summary>
 partial class Examples
 {
   public static Rhino.Commands.Result CreateSpiral(Rhino.RhinoDoc doc)

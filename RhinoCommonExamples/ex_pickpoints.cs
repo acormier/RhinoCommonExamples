@@ -1,9 +1,11 @@
-﻿using Rhino;
+using Rhino;
 using System.Collections.Generic;
 using Rhino.Display;
 using Rhino.Geometry;
 using Rhino.Input.Custom;
-
+/// <summary>
+/// title: Pick Points
+/// </summary>
 partial class Examples
 {
   private static readonly List<ConduitPoint> m_conduit_points = new List<ConduitPoint>();

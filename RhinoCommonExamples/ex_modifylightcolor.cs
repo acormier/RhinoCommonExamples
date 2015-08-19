@@ -1,9 +1,11 @@
-﻿using Rhino;
+using Rhino;
 using Rhino.DocObjects;
 using Rhino.Commands;
 using Rhino.Input;
 using Rhino.UI;
-
+/// <summary>
+/// title: Modify a Light's Color
+/// </summary>
 partial class Examples
 {
   public static Result ModifyLightColor(RhinoDoc doc)

@@ -1,9 +1,11 @@
-﻿using Rhino;
+using Rhino;
 using Rhino.DocObjects;
 using Rhino.Commands;
 using Rhino.Input;
 using Rhino.Input.Custom;
-
+/// <summary>
+/// title: Pick and Select Point Objects
+/// </summary>
 partial class Examples
 {
   public static Result PickPoint(RhinoDoc doc)

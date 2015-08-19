@@ -1,7 +1,9 @@
-﻿using Rhino;
+using Rhino;
 using Rhino.Geometry;
 using Rhino.Commands;
-
+/// <summary>
+/// title: Surface from Corner Points
+/// </summary>
 partial class Examples
 {
   public static Result SurfaceFromCorners(RhinoDoc doc)

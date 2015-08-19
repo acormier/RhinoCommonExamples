@@ -1,4 +1,7 @@
-﻿partial class Examples
+/// <summary>
+/// title: Get Multiple With Options
+/// </summary>
+partial class Examples
 {
   public static Rhino.Commands.Result GetMultipleWithOptions(Rhino.RhinoDoc doc)
   {

@@ -1,9 +1,11 @@
-﻿using Rhino;
+using Rhino;
 using Rhino.DocObjects;
 using Rhino.Commands;
 using Rhino.Input;
 using Rhino.Geometry;
-
+/// <summary>
+/// title: Split a Set of BReps with a Plane
+/// </summary>
 partial class Examples
 {
   public static Result SplitBrepsWithPlane(RhinoDoc doc)

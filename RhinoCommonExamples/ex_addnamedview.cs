@@ -1,4 +1,7 @@
-﻿partial class Examples
+/// <summary>
+/// title: Add Named View
+/// </summary>
+partial class Examples
 {
   public static Rhino.Commands.Result AddNamedView(Rhino.RhinoDoc doc)
   {

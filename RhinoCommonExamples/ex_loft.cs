@@ -1,10 +1,12 @@
-﻿using System.Linq;
+using System.Linq;
 using Rhino;
 using Rhino.Input.Custom;
 using Rhino.DocObjects;
 using Rhino.Commands;
 using Rhino.Geometry;
-
+/// <summary>
+/// title: Loft Surfaces
+/// </summary>
 partial class Examples
 {
   public static Result Loft(RhinoDoc doc)

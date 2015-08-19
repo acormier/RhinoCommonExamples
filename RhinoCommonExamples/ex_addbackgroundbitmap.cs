@@ -1,5 +1,7 @@
-﻿using System;
-
+using System;
+/// <summary>
+/// title: Add Background Bitmap
+/// </summary>
 partial class Examples
 {
   public static Rhino.Commands.Result AddBackgroundBitmap(Rhino.RhinoDoc doc)

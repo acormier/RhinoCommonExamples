@@ -1,5 +1,7 @@
-﻿using System;
-
+using System;
+/// <summary>
+/// title: Add Circle
+/// </summary>
 partial class Examples
 {
   public static Rhino.Commands.Result AddCircle(Rhino.RhinoDoc doc)

@@ -1,4 +1,7 @@
-﻿partial class Examples
+/// <summary>
+/// title: Extrude Brep Face
+/// </summary>
+partial class Examples
 {
   public static Rhino.Commands.Result ExtrudeBrepFace(Rhino.RhinoDoc doc)
   {

@@ -1,5 +1,7 @@
-﻿using Rhino.DocObjects;
-
+using Rhino.DocObjects;
+/// <summary>
+/// title: Space Morph
+/// </summary>
 partial class Examples
 {
   static Rhino.DocObjects.ObjectType SpaceMorphObjectFilter()

@@ -1,5 +1,7 @@
-﻿using Rhino;
-
+using Rhino;
+/// <summary>
+/// title: Array By Distance Command
+/// </summary>
 partial class Examples
 {
   static double m_distance = 1;

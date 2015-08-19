@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using Rhino;
@@ -7,7 +7,9 @@ using Rhino.Commands;
 using Rhino.Input;
 using Rhino.Geometry;
 using Rhino.Geometry.Intersect;
-
+/// <summary>
+/// title: Divide a curve using equi-distance points
+/// </summary>
 partial class Examples
 {
   private static void NextintersectParamAndPoint(Curve[] overlapCurves, Point3d[] intersectPoints,

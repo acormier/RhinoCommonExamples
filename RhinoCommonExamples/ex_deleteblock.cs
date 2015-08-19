@@ -1,7 +1,9 @@
-﻿using Rhino;
+using Rhino;
 using Rhino.Input;
 using Rhino.Commands;
-
+/// <summary>
+/// title: Delete Instance Definition (Block)
+/// </summary>
 partial class Examples
 {
   public static Result DeleteBlock(RhinoDoc doc)

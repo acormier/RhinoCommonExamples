@@ -1,6 +1,8 @@
 using System;
 using Rhino;
-
+/// <summary>
+/// title: Custom Python
+/// </summary>
 partial class Examples
 {
   public static Rhino.Commands.Result CustomPython(RhinoDoc doc)

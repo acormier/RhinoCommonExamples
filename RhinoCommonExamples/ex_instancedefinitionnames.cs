@@ -1,7 +1,9 @@
-﻿using Rhino;
+using Rhino;
 using Rhino.Commands;
 using System.Linq;
-
+/// <summary>
+/// title: Instance Definition Names
+/// </summary>
 partial class Examples
 {
   public static Result InstanceDefinitionNames(RhinoDoc doc)

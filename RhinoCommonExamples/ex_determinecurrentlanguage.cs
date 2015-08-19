@@ -1,6 +1,8 @@
-﻿using Rhino;
+using Rhino;
 using Rhino.Commands;
-
+/// <summary>
+/// title: Determine Rhino's Language Setting
+/// </summary>
 partial class Examples
 {
   public static Result DetermineCurrentLanguage(RhinoDoc doc)

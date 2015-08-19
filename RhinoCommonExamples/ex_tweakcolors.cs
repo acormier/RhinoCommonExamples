@@ -1,4 +1,7 @@
-﻿partial class Examples
+/// <summary>
+/// title: Tweak Colors
+/// </summary>
+partial class Examples
 {
   public static Rhino.Commands.Result TweakColors(Rhino.RhinoDoc doc)
   {

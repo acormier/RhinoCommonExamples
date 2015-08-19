@@ -1,5 +1,7 @@
-﻿using System;
-
+using System;
+/// <summary>
+/// title: Add Torus
+/// </summary>
 partial class Examples
 {
   public static Rhino.Commands.Result AddTorus(Rhino.RhinoDoc doc)

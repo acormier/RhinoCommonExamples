@@ -1,8 +1,10 @@
-﻿using Rhino;
+using Rhino;
 using Rhino.DocObjects;
 using Rhino.FileIO;
 using Rhino.Commands;
-
+/// <summary>
+/// title: Instance Definition Tree
+/// </summary>
 partial class Examples
 {
   public static Result InstanceDefinitionTree(RhinoDoc doc)

@@ -1,7 +1,9 @@
-﻿using Rhino;
+using Rhino;
 using Rhino.Input.Custom;
 using Rhino.Commands;
-
+/// <summary>
+/// title: Changing Display Precision
+/// </summary>
 partial class Examples
 {
   public static Result DisplayPrecision(RhinoDoc doc)

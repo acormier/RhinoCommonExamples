@@ -1,9 +1,11 @@
-﻿using Rhino;
+using Rhino;
 using Rhino.DocObjects;
 using Rhino.Geometry;
 using Rhino.Input;
 using Rhino.Commands;
-
+/// <summary>
+/// title: Offset a Curve
+/// </summary>
 partial class Examples
 {
   public static Result OffsetCurve(RhinoDoc doc)

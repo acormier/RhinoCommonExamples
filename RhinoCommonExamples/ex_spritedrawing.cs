@@ -1,6 +1,8 @@
-﻿using Rhino;
+using Rhino;
 using Rhino.Geometry;
-
+/// <summary>
+/// title: Sprite Drawing
+/// </summary>
 partial class Examples
 {
   static bool m_draw_single_sprite;

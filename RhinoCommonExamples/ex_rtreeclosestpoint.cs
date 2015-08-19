@@ -1,6 +1,8 @@
 using Rhino;
 using Rhino.Geometry;
-
+/// <summary>
+/// title: Closest Point Calculations with an RTree
+/// </summary>
 partial class Examples
 {
   static void SearchCallback(object sender, RTreeEventArgs e)

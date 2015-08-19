@@ -1,8 +1,10 @@
-﻿using Rhino;
+using Rhino;
 using Rhino.DocObjects;
 using Rhino.Input;
 using Rhino.Commands;
-
+/// <summary>
+/// title: Calculate Surface Curvature
+/// </summary>
 partial class Examples
 {
   public static Result PrincipalCurvature(RhinoDoc doc)

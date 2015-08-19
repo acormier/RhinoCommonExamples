@@ -1,3 +1,6 @@
+/// <summary>
+/// title: Determine Active Viewport
+/// </summary>
 partial class Examples
 {
   public static Rhino.Commands.Result ActiveViewport(Rhino.RhinoDoc doc)

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using Rhino;
@@ -8,7 +8,9 @@ using Rhino.Geometry.Intersect;
 using Rhino.Input;
 using Rhino.Input.Custom;
 using Rhino.DocObjects;
-
+/// <summary>
+/// title: Determine Furthest Z on Surface given X Y
+/// </summary>
 partial class Examples
 {
   public static Result FurthestZOnSurfaceGivenXY(RhinoDoc doc)

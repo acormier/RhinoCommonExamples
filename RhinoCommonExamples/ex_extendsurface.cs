@@ -1,9 +1,11 @@
-﻿using Rhino;
+using Rhino;
 using Rhino.Geometry;
 using Rhino.DocObjects;
 using Rhino.Commands;
 using Rhino.Input.Custom;
-
+/// <summary>
+/// title: Extend a Surface
+/// </summary>
 partial class Examples
 {
   public static Result ExtendSurface(RhinoDoc doc)

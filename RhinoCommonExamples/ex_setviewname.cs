@@ -1,6 +1,8 @@
-﻿using Rhino;
+using Rhino;
 using Rhino.Commands;
-
+/// <summary>
+/// title: Setting a Viewport's Title
+/// </summary>
 partial class Examples
 {
   public static Result SetViewName(RhinoDoc doc)

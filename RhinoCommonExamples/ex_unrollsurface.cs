@@ -1,6 +1,8 @@
-﻿using Rhino.Commands;
+using Rhino.Commands;
 using Rhino.DocObjects;
-
+/// <summary>
+/// title: Unrolling a developable surface
+/// </summary>
 partial class Examples
 {
   public static Rhino.Commands.Result UnrollSurface(Rhino.RhinoDoc doc)

@@ -1,5 +1,7 @@
-﻿using Rhino.DocObjects;
-
+using Rhino.DocObjects;
+/// <summary>
+/// title: Add Texture
+/// </summary>
 partial class Examples
 {
   public static Rhino.Commands.Result AddTexture(Rhino.RhinoDoc doc)

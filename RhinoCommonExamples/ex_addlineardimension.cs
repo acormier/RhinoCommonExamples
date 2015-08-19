@@ -1,5 +1,7 @@
-﻿using System;
-
+using System;
+/// <summary>
+/// title: Add Linear Dimension
+/// </summary>
 partial class Examples
 {
   public static Rhino.Commands.Result AddLinearDimension(Rhino.RhinoDoc doc)

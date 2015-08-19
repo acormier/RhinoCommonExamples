@@ -1,5 +1,7 @@
-﻿using System;
-
+using System;
+/// <summary>
+/// title: Line Between Curves
+/// </summary>
 partial class Examples
 {
   public static Rhino.Commands.Result LineBetweenCurves(Rhino.RhinoDoc doc)

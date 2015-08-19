@@ -1,4 +1,7 @@
-﻿partial class Examples
+/// <summary>
+/// title: Move Grip Objects
+/// </summary>
+partial class Examples
 {
   public static Rhino.Commands.Result MoveGripObjects(Rhino.RhinoDoc doc)
   {      

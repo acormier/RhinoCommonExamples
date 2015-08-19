@@ -1,5 +1,7 @@
-﻿using System;
-
+using System;
+/// <summary>
+/// title: Add Annotation Text
+/// </summary>
 partial class Examples
 {
   public static Rhino.Commands.Result AddAnnotationText(Rhino.RhinoDoc doc)

@@ -1,9 +1,11 @@
-﻿using Rhino;
+using Rhino;
 using Rhino.Geometry;
 using Rhino.Commands;
 using System.Collections.Generic;
 using System.Linq;
-
+/// <summary>
+/// title: Creating a Leader
+/// </summary>
 partial class Examples
 {
   public static Result Leader(RhinoDoc doc)

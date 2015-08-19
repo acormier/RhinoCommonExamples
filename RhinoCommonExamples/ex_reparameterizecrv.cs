@@ -1,10 +1,12 @@
-﻿using System;
+using System;
 using Rhino;
 using Rhino.Commands;
 using Rhino.DocObjects;
 using Rhino.Geometry;
 using Rhino.Input;
-
+/// <summary>
+/// title: Reparamemterize a Curve
+/// </summary>
 partial class Examples
 {
   public static Result ReparameterizeCurve(RhinoDoc doc)

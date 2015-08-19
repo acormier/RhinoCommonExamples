@@ -1,5 +1,7 @@
 using Rhino;
-
+/// <summary>
+/// title: Select by User Text
+/// </summary>
 partial class Examples
 {
   static string m_key = string.Empty;

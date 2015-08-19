@@ -1,11 +1,13 @@
-﻿using Rhino;
+using Rhino;
 using Rhino.Commands;
 using System.Linq;
 using Rhino.Geometry;
 using Rhino.Input;
 using Rhino.DocObjects;
 using System.Collections.Generic;
-
+/// <summary>
+/// title: Tight Bounding Boxes for Breps
+/// </summary>
 partial class Examples
 {
   public static Result TightBoundingBox(RhinoDoc doc)

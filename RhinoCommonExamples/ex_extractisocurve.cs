@@ -1,10 +1,12 @@
-﻿using Rhino;
+using Rhino;
 using Rhino.DocObjects;
 using Rhino.Commands;
 using Rhino.Input;
 using Rhino.Input.Custom;
 using Rhino.Geometry;
-
+/// <summary>
+/// title: Extracting Isoparametric Curves from Surfaces
+/// </summary>
 partial class Examples
 {
   public static Result ExtractIsoCurve(RhinoDoc doc)

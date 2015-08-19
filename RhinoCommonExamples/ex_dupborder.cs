@@ -1,6 +1,8 @@
-﻿using System;
+using System;
 using Rhino.DocObjects;
-
+/// <summary>
+/// title: Duplicate borders of a surface
+/// </summary>
 partial class Examples
 {
   public static Rhino.Commands.Result DupBorder(Rhino.RhinoDoc doc)

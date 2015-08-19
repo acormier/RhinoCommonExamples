@@ -1,9 +1,11 @@
-﻿using Rhino;
+using Rhino;
 using Rhino.Geometry;
 using Rhino.Commands;
 using Rhino.Input.Custom;
 using Rhino.DocObjects;
-
+/// <summary>
+/// title: Create a specialized GetObject with a Custom Geometry Filter
+/// </summary>
 partial class Examples
 {
   private static double m_tolerance;

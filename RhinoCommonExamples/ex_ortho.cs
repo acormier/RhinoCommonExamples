@@ -1,8 +1,10 @@
-﻿using Rhino;
+using Rhino;
 using Rhino.ApplicationSettings;
 using Rhino.Commands;
 using Rhino.Input.Custom;
-
+/// <summary>
+/// title: Enabling Orthogonal Mode
+/// </summary>
 partial class Examples
 {
   public static Result Ortho(RhinoDoc doc)

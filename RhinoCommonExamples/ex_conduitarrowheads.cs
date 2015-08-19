@@ -2,27 +2,9 @@ using Rhino;
 using Rhino.Commands;
 using Rhino.Geometry;
 using Rhino.Input.Custom;
-
-class DrawArrowHeadsConduit : Rhino.Display.DisplayConduit
-{
-  private readonly Line m_line;
-  private readonly int m_screen_size;
-  private readonly double m_world_size;
-
-  public DrawArrowHeadsConduit(Line line, int screenSize, double worldSize)
-  {
-    m_line = line;
-    m_screen_size = screenSize;
-    m_world_size = worldSize;
-  }
-
-  protected override void DrawForeground(Rhino.Display.DrawEventArgs e)
-  {
-    e.Display.DrawArrow(m_line, System.Drawing.Color.Black, m_screen_size, m_world_size);
-  }
-}
-
-
+/// <summary>
+/// title: Drawing Arrowheads in a Display Conduit
+/// </summary>
 partial class Examples
 {
   static DrawArrowHeadsConduit m_draw_conduit;

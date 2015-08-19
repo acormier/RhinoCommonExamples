@@ -1,9 +1,11 @@
-﻿using Rhino;
+using Rhino;
 using Rhino.DocObjects;
 using Rhino.Commands;
 using Rhino.Input;
 using Rhino.Input.Custom;
-
+/// <summary>
+/// title: Replacing a Hatch Object's Pattern
+/// </summary>
 partial class Examples
 {
   public static Result ReplaceHatchPattern(RhinoDoc doc)

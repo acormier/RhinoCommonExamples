@@ -1,5 +1,7 @@
-﻿using Rhino.Commands;
-
+using Rhino.Commands;
+/// <summary>
+/// title: Select objects on layer
+/// </summary>
 partial class Examples
 {
   public static Rhino.Commands.Result SelLayer(Rhino.RhinoDoc doc)

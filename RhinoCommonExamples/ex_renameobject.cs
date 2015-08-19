@@ -1,8 +1,10 @@
-﻿using Rhino;
+using Rhino;
 using Rhino.DocObjects;
 using Rhino.Input;
 using Rhino.Commands;
-
+/// <summary>
+/// title: Rename Object
+/// </summary>
 partial class Examples
 {
   public static Result RenameObject(RhinoDoc doc)

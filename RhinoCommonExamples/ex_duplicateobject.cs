@@ -1,9 +1,11 @@
-﻿using System;
+using System;
 using Rhino;
 using Rhino.Commands;
 using Rhino.DocObjects;
 using Rhino.Input;
-
+/// <summary>
+/// title: Clone (Copy, Duplicate) a Rhino Object
+/// </summary>
 partial class Examples
 {
   public static Result DuplicateObject(RhinoDoc doc)

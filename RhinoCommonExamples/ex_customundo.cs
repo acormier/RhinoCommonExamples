@@ -1,7 +1,9 @@
-﻿using System;
+using System;
 using System.Runtime.InteropServices;
 using Rhino;
-
+/// <summary>
+/// title: Custom Undo
+/// </summary>
 partial class Examples
 {
   static double MyFavoriteNumber = 0;

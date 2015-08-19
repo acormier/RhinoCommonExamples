@@ -1,11 +1,13 @@
-﻿using Rhino;
+using Rhino;
 using Rhino.Commands;
 using Rhino.Display;
 using Rhino.Geometry;
 using Rhino.Input.Custom;
 using Rhino.DocObjects;
 using System.Drawing;
-
+/// <summary>
+/// title: Draw Mesh
+/// </summary>
 partial class Examples
 {
   public static Result DrawMesh(RhinoDoc doc)

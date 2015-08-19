@@ -1,5 +1,7 @@
-﻿using System;
-
+using System;
+/// <summary>
+/// title: Add Clipping Plane
+/// </summary>
 partial class Examples
 {
   public static Rhino.Commands.Result AddClippingPlane(Rhino.RhinoDoc doc)

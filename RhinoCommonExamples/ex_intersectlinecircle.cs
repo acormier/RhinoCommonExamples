@@ -1,9 +1,11 @@
-﻿using Rhino;
+using Rhino;
 using Rhino.Commands;
 using Rhino.Input;
 using Rhino.Geometry;
 using Rhino.Geometry.Intersect;
-
+/// <summary>
+/// title: Intersecting a Line with a Circle
+/// </summary>
 partial class Examples
 {
   public static Result IntersectLineCircle(RhinoDoc doc)

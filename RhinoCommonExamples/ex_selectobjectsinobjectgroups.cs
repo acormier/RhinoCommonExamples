@@ -1,9 +1,11 @@
-﻿using System.Linq;
+using System.Linq;
 using Rhino;
 using Rhino.Commands;
 using Rhino.DocObjects;
 using Rhino.Input;
-
+/// <summary>
+/// title: Select Objects in an Object's Groups
+/// </summary>
 partial class Examples
 {
   public static Result SelectObjectsInObjectGroups(RhinoDoc doc)

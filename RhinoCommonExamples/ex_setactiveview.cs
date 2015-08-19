@@ -1,9 +1,11 @@
-﻿using Rhino;
+using Rhino;
 using Rhino.Commands;
 using Rhino.Input;
 using Rhino.Input.Custom;
 using System.Linq;
-
+/// <summary>
+/// title: Get and Set the Active View
+/// </summary>
 partial class Examples
 {
   public static Result SetActiveView(RhinoDoc doc)

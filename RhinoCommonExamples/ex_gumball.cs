@@ -1,6 +1,8 @@
 using Rhino;
 using Rhino.Geometry;
-
+/// <summary>
+/// title: Add Gumball
+/// </summary>
 partial class Examples
 {
   public static Rhino.Commands.Result Gumball(RhinoDoc doc)

@@ -2,7 +2,9 @@ using System;
 using Rhino;
 using Rhino.DocObjects;
 using Rhino.Geometry;
-
+/// <summary>
+/// title: Visual Analysis Modes
+/// </summary>
 partial class Examples
 {
   public static Rhino.Commands.Result AnalysisMode_on(RhinoDoc doc)

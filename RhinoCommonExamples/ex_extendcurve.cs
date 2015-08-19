@@ -1,11 +1,13 @@
-﻿using System.Linq;
+using System.Linq;
 using Rhino;
 using Rhino.Geometry;
 using Rhino.DocObjects;
 using Rhino.Commands;
 using Rhino.Input;
 using Rhino.Input.Custom;
-
+/// <summary>
+/// title: Extend a Curve Object
+/// </summary>
 partial class Examples
 {
   public static Result ExtendCurve(RhinoDoc doc)

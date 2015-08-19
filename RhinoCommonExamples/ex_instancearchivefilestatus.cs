@@ -1,5 +1,7 @@
-﻿using System;
-
+using System;
+/// <summary>
+/// title: Instance Archive File Status
+/// </summary>
 partial class Examples
 {
   public static Rhino.Commands.Result InstanceArchiveFileStatus(Rhino.RhinoDoc doc)

@@ -1,10 +1,12 @@
-﻿using System.Linq;
+using System.Linq;
 using Rhino;
 using Rhino.DocObjects;
 using Rhino.Geometry;
 using Rhino.Commands;
 using Rhino.Input;
-
+/// <summary>
+/// title: Is Planar Surface in Plane
+/// </summary>
 partial class Examples
 {
   public static Result IsPlanarSurfaceInPlane(RhinoDoc doc)

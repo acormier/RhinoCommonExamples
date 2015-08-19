@@ -1,9 +1,11 @@
-﻿using Rhino;
+using Rhino;
 using Rhino.Input;
 using Rhino.Commands;
 using System;
 using System.Linq;
-
+/// <summary>
+/// title: Lock a Layer
+/// </summary>
 partial class Examples
 {
   public static Result LockLayer(RhinoDoc doc)

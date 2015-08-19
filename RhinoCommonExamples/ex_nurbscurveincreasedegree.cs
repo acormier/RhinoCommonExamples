@@ -1,8 +1,10 @@
-﻿using Rhino;
+using Rhino;
 using Rhino.Commands;
 using Rhino.Input;
 using Rhino.DocObjects;
-
+/// <summary>
+/// title: Increasing the degree of a Nurbs curve
+/// </summary>
 partial class Examples
 {
   public static Result NurbsCurveIncreaseDegree(RhinoDoc doc)

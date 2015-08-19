@@ -1,4 +1,7 @@
-﻿partial class Examples
+/// <summary>
+/// title: Find Circles and their centers
+/// </summary>
+partial class Examples
 {
   public static Rhino.Commands.Result CircleCenter(Rhino.RhinoDoc doc)
   {

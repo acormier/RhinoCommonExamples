@@ -1,5 +1,7 @@
-﻿using Rhino.DocObjects;
-
+using Rhino.DocObjects;
+/// <summary>
+/// title: Add a block definition
+/// </summary>
 partial class Examples
 {
   public static Rhino.Commands.Result CreateBlock(Rhino.RhinoDoc doc)

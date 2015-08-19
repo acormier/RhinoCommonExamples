@@ -1,4 +1,7 @@
-﻿partial class Examples
+/// <summary>
+/// title: List Block Definition Geometry
+/// </summary>
+partial class Examples
 {
   public static Rhino.Commands.Result InstanceDefinitionObjects(Rhino.RhinoDoc doc)
   {

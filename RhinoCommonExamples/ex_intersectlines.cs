@@ -1,5 +1,7 @@
-﻿using Rhino.Geometry;
-
+using Rhino.Geometry;
+/// <summary>
+/// title: Intersecting line curves
+/// </summary>
 partial class Examples
 {
   public static Rhino.Commands.Result IntersectLines(Rhino.RhinoDoc doc)

@@ -1,8 +1,10 @@
-﻿using Rhino;
+using Rhino;
 using Rhino.Commands;
 using Rhino.Input.Custom;
 using Rhino.DocObjects;
-
+/// <summary>
+/// title: Bounding Polyline from Naked Edges of Open Mesh
+/// </summary>
 partial class Examples
 {
   public static Result DupMeshBoundary(RhinoDoc doc)

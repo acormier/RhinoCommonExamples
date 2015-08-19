@@ -1,9 +1,11 @@
-﻿using Rhino;
+using Rhino;
 using Rhino.Commands;
 using Rhino.Input;
 using Rhino.Geometry;
 using Rhino.DocObjects;
-
+/// <summary>
+/// title: Create Meshes from Brep
+/// </summary>
 partial class Examples
 {
   public static Result CreateMeshFromBrep(RhinoDoc doc)

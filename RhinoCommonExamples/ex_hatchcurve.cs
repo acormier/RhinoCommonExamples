@@ -1,4 +1,7 @@
-﻿partial class Examples
+/// <summary>
+/// title: Creating a hatch from a curve
+/// </summary>
+partial class Examples
 {
   public static Rhino.Commands.Result HatchCurve(Rhino.RhinoDoc doc)
   {

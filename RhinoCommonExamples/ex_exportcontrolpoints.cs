@@ -1,6 +1,8 @@
-﻿using System;
+using System;
 using Eto.Forms;
-
+/// <summary>
+/// title: Export Control Points
+/// </summary>
 partial class Examples
 {
   public static Rhino.Commands.Result ExportControlPoints(Rhino.RhinoDoc doc)

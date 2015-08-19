@@ -1,4 +1,7 @@
-﻿partial class Examples
+/// <summary>
+/// title: Add a basic Material
+/// </summary>
+partial class Examples
 {
   public static Rhino.Commands.Result AddMaterial(Rhino.RhinoDoc doc)
   {

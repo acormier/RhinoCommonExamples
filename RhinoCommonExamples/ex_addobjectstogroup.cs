@@ -1,6 +1,8 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
-
+/// <summary>
+/// title: Add Objects to Group
+/// </summary>
 partial class Examples
 {
   public static Rhino.Commands.Result AddObjectsToGroup(Rhino.RhinoDoc doc)

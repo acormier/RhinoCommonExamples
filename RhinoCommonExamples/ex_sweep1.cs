@@ -1,6 +1,8 @@
-﻿using Rhino.Input;
+using Rhino.Input;
 using System.Collections.Generic;
-
+/// <summary>
+/// title: Sweeping Surfaces using Sweep1
+/// </summary>
 partial class Examples
 {
   public static Rhino.Commands.Result Sweep1(Rhino.RhinoDoc doc)

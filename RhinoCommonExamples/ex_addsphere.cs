@@ -1,5 +1,7 @@
-﻿using System;
-
+using System;
+/// <summary>
+/// title: Add Sphere
+/// </summary>
 partial class Examples
 {
   public static Rhino.Commands.Result AddSphere(Rhino.RhinoDoc doc)

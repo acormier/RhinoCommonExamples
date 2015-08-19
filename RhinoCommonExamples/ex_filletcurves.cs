@@ -1,10 +1,12 @@
-﻿using Rhino;
+using Rhino;
 using Rhino.Commands;
 using Rhino.Geometry;
 using Rhino.Input;
 using Rhino.DocObjects;
 using Rhino.Input.Custom;
-
+/// <summary>
+/// title: fillet curves
+/// </summary>
 partial class Examples
 {
   public static Result FilletCurves(RhinoDoc doc)

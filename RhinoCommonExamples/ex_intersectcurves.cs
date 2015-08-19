@@ -1,4 +1,7 @@
-﻿partial class Examples
+/// <summary>
+/// title: Calculate Curve Intersections
+/// </summary>
+partial class Examples
 {
   public static Rhino.Commands.Result IntersectCurves(Rhino.RhinoDoc doc)
   {

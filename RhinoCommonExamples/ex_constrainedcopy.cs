@@ -1,5 +1,7 @@
-﻿using System;
-
+using System;
+/// <summary>
+/// title: Use a constrained GetPoint to copy a curve
+/// </summary>
 partial class Examples
 {
   public static Rhino.Commands.Result ConstrainedCopy(Rhino.RhinoDoc doc)

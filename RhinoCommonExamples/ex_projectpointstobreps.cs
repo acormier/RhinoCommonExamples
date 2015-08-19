@@ -1,11 +1,13 @@
-﻿using Rhino;
+using Rhino;
 using Rhino.DocObjects;
 using Rhino.Input.Custom;
 using Rhino.Commands;
 using System.Collections.Generic;
 using Rhino.Geometry;
 using Rhino.Geometry.Intersect;
-
+/// <summary>
+/// title: Projecting Points to Breps
+/// </summary>
 partial class Examples
 {
   public static Result ProjectPointsToBreps(RhinoDoc doc)

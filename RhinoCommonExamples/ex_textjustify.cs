@@ -1,7 +1,9 @@
-﻿using Rhino;
+using Rhino;
 using Rhino.Commands;
 using Rhino.Geometry;
-
+/// <summary>
+/// title: Justifying Text Entities
+/// </summary>
 partial class Examples
 {
   public static Result TextJustify(RhinoDoc doc)

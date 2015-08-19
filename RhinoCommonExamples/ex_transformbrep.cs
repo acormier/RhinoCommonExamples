@@ -1,5 +1,7 @@
-﻿using Rhino.Input;
-
+using Rhino.Input;
+/// <summary>
+/// title: Transform a Brep
+/// </summary>
 partial class Examples
 {
   public static Rhino.Commands.Result TransformBrep(Rhino.RhinoDoc doc)

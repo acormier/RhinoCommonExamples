@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
 using Rhino;
@@ -7,7 +7,9 @@ using Rhino.Display;
 using Rhino.Geometry;
 using Rhino.Input;
 using Rhino.DocObjects;
-
+/// <summary>
+/// title: Display Order
+/// </summary>
 partial class Examples
 {
   private static List<RhinoObject> m_line_objects = new List<RhinoObject>(); 

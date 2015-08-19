@@ -1,5 +1,7 @@
-﻿using System;
-
+using System;
+/// <summary>
+/// title: IsBrepBox Test
+/// </summary>
 partial class Examples
 {
   private static bool IsBrepBox(Rhino.Geometry.Brep brep)

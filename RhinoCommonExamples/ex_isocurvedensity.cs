@@ -1,4 +1,7 @@
-﻿partial class Examples
+/// <summary>
+/// title: Adjusting Surface Isocurve Density
+/// </summary>
+partial class Examples
 {
   public static Rhino.Commands.Result IsocurveDensity(Rhino.RhinoDoc doc)
   {

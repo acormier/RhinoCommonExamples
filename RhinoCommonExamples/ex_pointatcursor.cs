@@ -1,8 +1,10 @@
-﻿using Rhino;
+using Rhino;
 using Rhino.Commands;
 using Rhino.DocObjects;
 using System;
-
+/// <summary>
+/// title: Get the point at the current cursor position
+/// </summary>
 partial class Examples
 {
   [System.Runtime.InteropServices.DllImport("user32.dll")]

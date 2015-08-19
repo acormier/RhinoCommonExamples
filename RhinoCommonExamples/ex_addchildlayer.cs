@@ -1,3 +1,6 @@
+/// <summary>
+/// title: Add Child Layer
+/// </summary>
 partial class Examples
 {
   public static Rhino.Commands.Result AddChildLayer(Rhino.RhinoDoc doc)

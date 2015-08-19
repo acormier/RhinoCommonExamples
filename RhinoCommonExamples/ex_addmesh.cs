@@ -1,5 +1,7 @@
-﻿using System;
-
+using System;
+/// <summary>
+/// title: Add Mesh
+/// </summary>
 partial class Examples
 {
   public static Rhino.Commands.Result AddMesh(Rhino.RhinoDoc doc)

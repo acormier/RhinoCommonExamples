@@ -1,8 +1,10 @@
-﻿using System;
+using System;
 using System.Runtime.InteropServices;
 using Rhino;
 using Rhino.Commands;
-
+/// <summary>
+/// title: Maximize a View
+/// </summary>
 partial class Examples
 {
   [DllImport("user32.dll", ExactSpelling = true, CharSet = CharSet.Auto)]

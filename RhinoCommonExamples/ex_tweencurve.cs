@@ -1,5 +1,7 @@
-﻿using System;
-
+using System;
+/// <summary>
+/// title: Tween Curve
+/// </summary>
 partial class Examples
 {
   public static Rhino.Commands.Result TweenCurve(Rhino.RhinoDoc doc)

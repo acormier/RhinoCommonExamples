@@ -1,7 +1,9 @@
-﻿using System.Linq;
+using System.Linq;
 using Rhino;
 using Rhino.Commands;
-
+/// <summary>
+/// title: Pre-Pick and Post-Pick Objects
+/// </summary>
 partial class Examples
 {
   public static Result PrePostPick(RhinoDoc doc)

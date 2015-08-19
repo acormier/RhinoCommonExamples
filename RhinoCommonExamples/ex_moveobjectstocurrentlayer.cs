@@ -1,7 +1,9 @@
-﻿using Rhino;
+using Rhino;
 using Rhino.Commands;
 using Rhino.DocObjects;
-
+/// <summary>
+/// title: Move Selected Objects to Current Layer
+/// </summary>
 partial class Examples
 {
   public static Result MoveObjectsToCurrentLayer(RhinoDoc doc)

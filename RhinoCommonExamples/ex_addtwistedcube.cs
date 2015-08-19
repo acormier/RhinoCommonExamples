@@ -1,25 +1,7 @@
-﻿using Rhino.Geometry;
-
-/* Demonstrates how to construct a Brep with the topology shown below.
-           H-------e6-------G
-          /                /|
-         / |              / |
-        /  e7            /  e5
-       /   |            /   |
-      /                e10  |
-     /     |          /     |
-    e11    E- - e4- -/- - - F
-   /                /      /
-  /      /         /      /
- D---------e2-----C      e9
- |     /          |     /
- |    e8          |    /
- e3  /            e1  /
- |                |  /
- | /              | /
- |                |/
- A-------e0-------B     */
-
+using Rhino.Geometry;
+/// <summary>
+/// title: Add Twisted Cube
+/// </summary>
 partial class Examples
 {
   // Symbolic vertex index constants to make code more readable

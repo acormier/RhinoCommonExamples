@@ -1,10 +1,12 @@
-﻿using Rhino;
+using Rhino;
 using Rhino.Geometry;
 using Rhino.Geometry.Intersect;
 using Rhino.Input.Custom;
 using Rhino.DocObjects;
 using Rhino.Commands;
-
+/// <summary>
+/// title: Curve-Surface Intersection
+/// </summary>
 partial class Examples
 {
   public static Result CurveSurfaceIntersect(RhinoDoc doc)

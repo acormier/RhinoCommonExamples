@@ -1,10 +1,12 @@
-﻿using System.Drawing;
+using System.Drawing;
 using Rhino;
 using Rhino.DocObjects;
 using Rhino.Geometry;
 using Rhino.Input;
 using Rhino.Commands;
-
+/// <summary>
+/// title: Modify an Object's Color
+/// </summary>
 partial class Examples
 {
   public static Result ModifyObjectColor(RhinoDoc doc)
