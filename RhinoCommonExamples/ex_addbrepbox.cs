@@ -1,5 +1,6 @@
 /// <summary>
 /// title: Add Brep Box
+/// keywords: ['add', 'brep']
 /// </summary>
 partial class Examples
 {

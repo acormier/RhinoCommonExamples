@@ -1,6 +1,7 @@
 using System;
 /// <summary>
 /// title: Instance Archive File Status
+/// keywords: ['instance', 'archive', 'file', 'status']
 /// </summary>
 partial class Examples
 {

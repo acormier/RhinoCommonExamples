@@ -6,6 +6,7 @@ using Rhino.Input.Custom;
 using Rhino.Geometry;
 /// <summary>
 /// title: Extracting Isoparametric Curves from Surfaces
+/// keywords: ['extracting', 'isoparametric', 'curves', 'surfaces']
 /// </summary>
 partial class Examples
 {

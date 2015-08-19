@@ -4,6 +4,7 @@ using Rhino.DocObjects;
 using Rhino.Commands;
 /// <summary>
 /// title: Determine Normal Direction of Brep Face
+/// keywords: ['determine', 'normal', 'direction', 'brep', 'face']
 /// </summary>
 partial class Examples
 {

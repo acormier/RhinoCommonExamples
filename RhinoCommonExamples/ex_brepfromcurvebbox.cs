@@ -5,6 +5,7 @@ using Rhino.Input;
 using Rhino.DocObjects;
 /// <summary>
 /// title: Brep from Curve Bounding Box
+/// keywords: ['brep', 'curve', 'bounding']
 /// </summary>
 partial class Examples
 {

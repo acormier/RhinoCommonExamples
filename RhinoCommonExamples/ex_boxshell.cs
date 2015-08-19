@@ -1,5 +1,6 @@
 /// <summary>
 /// title: Box Shell
+/// keywords: ['shell']
 /// </summary>
 partial class Examples
 {

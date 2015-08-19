@@ -1,5 +1,6 @@
 /// <summary>
 /// title: Creating a hatch from a curve
+/// keywords: ['creating', 'hatch', 'curve']
 /// </summary>
 partial class Examples
 {

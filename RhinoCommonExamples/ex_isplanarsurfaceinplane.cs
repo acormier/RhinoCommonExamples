@@ -6,6 +6,7 @@ using Rhino.Commands;
 using Rhino.Input;
 /// <summary>
 /// title: Is Planar Surface in Plane
+/// keywords: ['planar', 'surface', 'plane']
 /// </summary>
 partial class Examples
 {

@@ -6,6 +6,7 @@ using Rhino.Input.Custom;
 using Rhino.Geometry;
 /// <summary>
 /// title: Move Points
+/// keywords: ['move', 'points']
 /// </summary>
 partial class Examples
 {

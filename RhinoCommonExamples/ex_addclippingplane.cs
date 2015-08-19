@@ -1,6 +1,7 @@
 using System;
 /// <summary>
 /// title: Add Clipping Plane
+/// keywords: ['add', 'clipping', 'plane']
 /// </summary>
 partial class Examples
 {

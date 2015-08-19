@@ -2,6 +2,7 @@ using Rhino;
 using Rhino.Geometry;
 /// <summary>
 /// title: Add Gumball
+/// keywords: ['add', 'gumball']
 /// </summary>
 partial class Examples
 {

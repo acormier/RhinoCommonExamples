@@ -1,5 +1,6 @@
 /// <summary>
 /// title: Add a layout with a detail view
+/// keywords: ['add', 'layout', 'with', 'detail', 'view']
 /// </summary>
 partial class Examples
 {

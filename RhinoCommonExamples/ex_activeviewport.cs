@@ -1,5 +1,6 @@
 /// <summary>
 /// title: Determine Active Viewport
+/// keywords: ['determine', 'active', 'viewport']
 /// </summary>
 partial class Examples
 {

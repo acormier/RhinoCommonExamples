@@ -3,6 +3,7 @@ using Rhino;
 using System.Runtime.InteropServices;
 /// <summary>
 /// title: Info: RhinoCommon object plug-in user data
+/// keywords: ['info:', 'rhinocommon', 'object', 'plug-in', 'user', 'data']
 /// </summary>
 partial class Examples
 {

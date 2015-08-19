@@ -5,6 +5,7 @@ using Rhino.Input.Custom;
 using System.Linq;
 /// <summary>
 /// title: Get and Set the Active View
+/// keywords: ['active', 'view']
 /// </summary>
 partial class Examples
 {

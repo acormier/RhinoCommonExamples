@@ -4,6 +4,7 @@ using Rhino.Input;
 using Rhino.DocObjects;
 /// <summary>
 /// title: Increasing the degree of a Nurbs surface
+/// keywords: ['increasing', 'degree', 'nurbs', 'surface']
 /// </summary>
 partial class Examples
 {

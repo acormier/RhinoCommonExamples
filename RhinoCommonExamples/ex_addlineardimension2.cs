@@ -2,6 +2,7 @@ using System;
 using Rhino.Geometry;
 /// <summary>
 /// title: Add Linear Dimension2
+/// keywords: ['add', 'linear', 'dimension2']
 /// </summary>
 partial class Examples
 {

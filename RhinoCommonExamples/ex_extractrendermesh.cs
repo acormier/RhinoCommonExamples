@@ -1,6 +1,7 @@
 using System;
 /// <summary>
 /// title: Extract Render Mesh
+/// keywords: ['extract', 'render', 'mesh']
 /// </summary>
 partial class Examples
 {

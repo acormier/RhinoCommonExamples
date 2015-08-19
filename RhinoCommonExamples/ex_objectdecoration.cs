@@ -1,5 +1,6 @@
 /// <summary>
 /// title: Adding Arrowheads to Curves
+/// keywords: ['adding', 'arrowheads', 'curves']
 /// </summary>
 partial class Examples
 {

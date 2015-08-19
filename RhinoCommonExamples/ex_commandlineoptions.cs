@@ -1,5 +1,6 @@
 /// <summary>
 /// title: Add Command Line Options
+/// keywords: ['add', 'command', 'line', 'options']
 /// </summary>
 partial class Examples
 {

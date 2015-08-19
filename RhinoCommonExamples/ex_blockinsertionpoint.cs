@@ -1,6 +1,7 @@
 using Rhino.Commands;
 /// <summary>
 /// title: Obtain insertion point of block
+/// keywords: ['obtain', 'insertion', 'point', 'block']
 /// </summary>
 partial class Examples
 {

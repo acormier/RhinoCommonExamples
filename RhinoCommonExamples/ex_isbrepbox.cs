@@ -1,6 +1,7 @@
 using System;
 /// <summary>
 /// title: IsBrepBox Test
+/// keywords: ['isbrepbox', 'test']
 /// </summary>
 partial class Examples
 {

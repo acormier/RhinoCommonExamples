@@ -4,6 +4,7 @@ using Rhino.UI;
 using Eto.Forms;
 /// <summary>
 /// title: Replace Rhino's Color Picking Dialog
+/// keywords: ['replace', 'rhinos', 'color', 'picking', 'dialog']
 /// </summary>
 partial class Examples
 {

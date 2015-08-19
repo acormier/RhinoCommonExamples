@@ -1,6 +1,7 @@
 using System;
 /// <summary>
 /// title: Add Linear Dimension
+/// keywords: ['add', 'linear', 'dimension']
 /// </summary>
 partial class Examples
 {

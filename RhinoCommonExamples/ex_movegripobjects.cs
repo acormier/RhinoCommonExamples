@@ -1,5 +1,6 @@
 /// <summary>
 /// title: Move Grip Objects
+/// keywords: ['move', 'grip', 'objects']
 /// </summary>
 partial class Examples
 {

@@ -1,5 +1,6 @@
 /// <summary>
 /// title: Edit Text
+/// keywords: ['edit', 'text']
 /// </summary>
 partial class Examples
 {

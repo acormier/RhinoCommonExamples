@@ -5,6 +5,7 @@ using Rhino.Commands;
 using Rhino.Input.Custom;
 /// <summary>
 /// title: Extend a Surface
+/// keywords: ['extend', 'surface']
 /// </summary>
 partial class Examples
 {

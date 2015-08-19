@@ -1,6 +1,7 @@
 using System;
 /// <summary>
 /// title: Add NURBS Circle
+/// keywords: ['add', 'nurbs', 'circle']
 /// </summary>
 partial class Examples
 {

@@ -6,6 +6,7 @@ using Rhino.Commands;
 using Rhino.Geometry;
 /// <summary>
 /// title: Loft Surfaces
+/// keywords: ['loft', 'surfaces']
 /// </summary>
 partial class Examples
 {

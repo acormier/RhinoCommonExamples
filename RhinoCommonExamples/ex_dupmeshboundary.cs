@@ -4,6 +4,7 @@ using Rhino.Input.Custom;
 using Rhino.DocObjects;
 /// <summary>
 /// title: Bounding Polyline from Naked Edges of Open Mesh
+/// keywords: ['bounding', 'polyline', 'naked', 'edges', 'open', 'mesh']
 /// </summary>
 partial class Examples
 {

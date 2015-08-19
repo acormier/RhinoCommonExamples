@@ -1,6 +1,7 @@
 using Rhino.DocObjects;
 /// <summary>
 /// title: Divide by Length Points
+/// keywords: ['divide', 'length', 'points']
 /// </summary>
 partial class Examples
 {

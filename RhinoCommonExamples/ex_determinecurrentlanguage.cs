@@ -2,6 +2,7 @@ using Rhino;
 using Rhino.Commands;
 /// <summary>
 /// title: Determine Rhino's Language Setting
+/// keywords: ['determine', 'rhinos', 'language', 'setting']
 /// </summary>
 partial class Examples
 {

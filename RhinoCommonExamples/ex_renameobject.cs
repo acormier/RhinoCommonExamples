@@ -4,6 +4,7 @@ using Rhino.Input;
 using Rhino.Commands;
 /// <summary>
 /// title: Rename Object
+/// keywords: ['rename', 'object']
 /// </summary>
 partial class Examples
 {

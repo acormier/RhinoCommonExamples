@@ -4,6 +4,7 @@ using Rhino.Commands;
 using Rhino.Geometry;
 /// <summary>
 /// title: Change Dimension Style
+/// keywords: ['change', 'dimension', 'style']
 /// </summary>
 partial class Examples
 {

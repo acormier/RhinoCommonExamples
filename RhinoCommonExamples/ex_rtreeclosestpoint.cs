@@ -2,6 +2,7 @@ using Rhino;
 using Rhino.Geometry;
 /// <summary>
 /// title: Closest Point Calculations with an RTree
+/// keywords: ['closest', 'point', 'calculations', 'with', 'rtree']
 /// </summary>
 partial class Examples
 {

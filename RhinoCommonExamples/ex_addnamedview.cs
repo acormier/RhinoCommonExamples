@@ -1,5 +1,6 @@
 /// <summary>
 /// title: Add Named View
+/// keywords: ['add', 'named', 'view']
 /// </summary>
 partial class Examples
 {

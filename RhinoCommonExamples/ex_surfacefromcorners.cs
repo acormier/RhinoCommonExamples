@@ -3,6 +3,7 @@ using Rhino.Geometry;
 using Rhino.Commands;
 /// <summary>
 /// title: Surface from Corner Points
+/// keywords: ['surface', 'corner', 'points']
 /// </summary>
 partial class Examples
 {

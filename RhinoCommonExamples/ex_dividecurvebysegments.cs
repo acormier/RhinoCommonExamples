@@ -5,6 +5,7 @@ using Rhino.Input;
 using Rhino.Geometry;
 /// <summary>
 /// title: Divide Curve by Segments
+/// keywords: ['divide', 'curve', 'segments']
 /// </summary>
 partial class Examples
 {

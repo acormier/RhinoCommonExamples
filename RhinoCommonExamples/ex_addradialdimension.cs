@@ -5,6 +5,7 @@ using Rhino.Geometry;
 using Rhino.Input;
 /// <summary>
 /// title: Create Radial Dimensions
+/// keywords: ['create', 'radial', 'dimensions']
 /// </summary>
 partial class Examples
 {

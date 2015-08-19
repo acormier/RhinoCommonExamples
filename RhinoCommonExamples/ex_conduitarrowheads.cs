@@ -4,6 +4,7 @@ using Rhino.Geometry;
 using Rhino.Input.Custom;
 /// <summary>
 /// title: Drawing Arrowheads in a Display Conduit
+/// keywords: ['drawing', 'arrowheads', 'display', 'conduit']
 /// </summary>
 partial class Examples
 {

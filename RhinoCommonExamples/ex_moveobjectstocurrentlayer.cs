@@ -3,6 +3,7 @@ using Rhino.Commands;
 using Rhino.DocObjects;
 /// <summary>
 /// title: Move Selected Objects to Current Layer
+/// keywords: ['move', 'selected', 'objects', 'current', 'layer']
 /// </summary>
 partial class Examples
 {

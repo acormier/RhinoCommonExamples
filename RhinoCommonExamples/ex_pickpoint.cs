@@ -5,6 +5,7 @@ using Rhino.Input;
 using Rhino.Input.Custom;
 /// <summary>
 /// title: Pick and Select Point Objects
+/// keywords: ['pick', 'select', 'point', 'objects']
 /// </summary>
 partial class Examples
 {

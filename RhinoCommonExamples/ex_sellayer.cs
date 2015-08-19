@@ -1,6 +1,7 @@
 using Rhino.Commands;
 /// <summary>
 /// title: Select objects on layer
+/// keywords: ['select', 'objects', 'layer']
 /// </summary>
 partial class Examples
 {

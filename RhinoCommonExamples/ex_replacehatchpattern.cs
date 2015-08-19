@@ -5,6 +5,7 @@ using Rhino.Input;
 using Rhino.Input.Custom;
 /// <summary>
 /// title: Replacing a Hatch Object's Pattern
+/// keywords: ['replacing', 'hatch', 'objects', 'pattern']
 /// </summary>
 partial class Examples
 {

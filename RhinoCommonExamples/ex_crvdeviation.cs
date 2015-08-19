@@ -6,6 +6,7 @@ using System.Drawing;
 using Rhino.Input;
 /// <summary>
 /// title: Determine the Deviation between two Curves
+/// keywords: ['determine', 'deviation', 'between', 'curves']
 /// </summary>
 partial class Examples
 {

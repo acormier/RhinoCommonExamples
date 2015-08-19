@@ -7,6 +7,7 @@ using Rhino.Input;
 using Rhino.DocObjects;
 /// <summary>
 /// title: Project Points to Mesh
+/// keywords: ['project', 'points', 'mesh']
 /// </summary>
 partial class Examples
 {

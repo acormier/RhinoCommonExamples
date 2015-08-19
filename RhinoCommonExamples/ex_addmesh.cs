@@ -1,6 +1,7 @@
 using System;
 /// <summary>
 /// title: Add Mesh
+/// keywords: ['add', 'mesh']
 /// </summary>
 partial class Examples
 {

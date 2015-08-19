@@ -2,6 +2,7 @@ using Rhino;
 using Rhino.Commands;
 /// <summary>
 /// title: Setting a Viewport's Title
+/// keywords: ['setting', 'viewports', 'title']
 /// </summary>
 partial class Examples
 {

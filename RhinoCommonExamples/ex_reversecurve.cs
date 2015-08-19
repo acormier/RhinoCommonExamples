@@ -4,6 +4,7 @@ using Rhino.Input;
 using Rhino.DocObjects;
 /// <summary>
 /// title: Reverse Curve
+/// keywords: ['reverse', 'curve']
 /// </summary>
 partial class Examples
 {

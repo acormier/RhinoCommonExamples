@@ -1,5 +1,6 @@
 /// <summary>
 /// title: Adjusting Surface Isocurve Density
+/// keywords: ['adjusting', 'surface', 'isocurve', 'density']
 /// </summary>
 partial class Examples
 {

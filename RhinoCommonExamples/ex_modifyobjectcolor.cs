@@ -6,6 +6,7 @@ using Rhino.Input;
 using Rhino.Commands;
 /// <summary>
 /// title: Modify an Object's Color
+/// keywords: ['modify', 'objects', 'color']
 /// </summary>
 partial class Examples
 {

@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 /// <summary>
 /// title: Creating a Leader
+/// keywords: ['creating', 'leader']
 /// </summary>
 partial class Examples
 {

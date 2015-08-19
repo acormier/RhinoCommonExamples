@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using Rhino.Geometry;
 /// <summary>
 /// title: Show Surface Direction
+/// keywords: ['show', 'surface', 'direction']
 /// </summary>
 partial class Examples
 {

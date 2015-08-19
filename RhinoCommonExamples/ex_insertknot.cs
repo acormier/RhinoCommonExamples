@@ -2,6 +2,7 @@ using Rhino.Commands;
 using Rhino.DocObjects;
 /// <summary>
 /// title: Insert Knot
+/// keywords: ['insert', 'knot']
 /// </summary>
 partial class Examples
 {

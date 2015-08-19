@@ -4,6 +4,7 @@ using Rhino.Input;
 using Rhino.Input.Custom;
 /// <summary>
 /// title: Interactively Pick an Angle
+/// keywords: ['interactively', 'pick', 'angle']
 /// </summary>
 partial class Examples
 {

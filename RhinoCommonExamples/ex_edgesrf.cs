@@ -6,6 +6,7 @@ using Rhino.Geometry;
 using Rhino.Input.Custom;
 /// <summary>
 /// title: Create a Surface from Edge Curves
+/// keywords: ['create', 'surface', 'edge', 'curves']
 /// </summary>
 partial class Examples
 {

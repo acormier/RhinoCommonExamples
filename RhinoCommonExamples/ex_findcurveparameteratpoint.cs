@@ -5,6 +5,7 @@ using Rhino.DocObjects;
 using Rhino.Commands;
 /// <summary>
 /// title: Find Curve Parameter At Point
+/// keywords: ['find', 'curve', 'parameter', 'point']
 /// </summary>
 partial class Examples
 {

@@ -4,6 +4,7 @@ using Rhino.Commands;
 using Rhino.DocObjects;
 /// <summary>
 /// title: Set object display mode
+/// keywords: ['object', 'display', 'mode']
 /// </summary>
 partial class Examples
 {

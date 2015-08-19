@@ -3,6 +3,7 @@ using Rhino.Input.Custom;
 using Rhino.Commands;
 /// <summary>
 /// title: Changing Display Precision
+/// keywords: ['changing', 'display', 'precision']
 /// </summary>
 partial class Examples
 {

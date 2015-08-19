@@ -2,6 +2,7 @@ using System;
 using Eto.Forms;
 /// <summary>
 /// title: Export Control Points
+/// keywords: ['export', 'control', 'points']
 /// </summary>
 partial class Examples
 {

@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 /// <summary>
 /// title: Add Objects to Group
+/// keywords: ['add', 'objects', 'group']
 /// </summary>
 partial class Examples
 {

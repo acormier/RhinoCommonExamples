@@ -5,6 +5,7 @@ using System;
 using System.Linq;
 /// <summary>
 /// title: Lock a Layer
+/// keywords: ['lock', 'layer']
 /// </summary>
 partial class Examples
 {

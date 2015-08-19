@@ -1,5 +1,6 @@
 /// <summary>
 /// title: Calculate Curve Intersections
+/// keywords: ['calculate', 'curve', 'intersections']
 /// </summary>
 partial class Examples
 {

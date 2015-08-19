@@ -5,6 +5,7 @@ using Rhino.Geometry;
 using Rhino.Input.Custom;
 /// <summary>
 /// title: Pick Points
+/// keywords: ['pick', 'points']
 /// </summary>
 partial class Examples
 {

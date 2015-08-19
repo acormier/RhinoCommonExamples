@@ -1,5 +1,6 @@
 /// <summary>
 /// title: Find Circles and their centers
+/// keywords: ['find', 'circles', 'their', 'centers']
 /// </summary>
 partial class Examples
 {

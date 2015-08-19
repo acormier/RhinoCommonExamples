@@ -2,6 +2,7 @@ using Rhino;
 using Rhino.Geometry;
 /// <summary>
 /// title: Sprite Drawing
+/// keywords: ['sprite', 'drawing']
 /// </summary>
 partial class Examples
 {

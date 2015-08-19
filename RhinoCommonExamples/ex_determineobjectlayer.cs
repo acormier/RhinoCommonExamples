@@ -1,5 +1,6 @@
 /// <summary>
 /// title: Determine an Object's Layer
+/// keywords: ['determine', 'objects', 'layer']
 /// </summary>
 partial class Examples
 {

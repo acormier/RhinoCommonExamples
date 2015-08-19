@@ -6,6 +6,7 @@ using Rhino.Input.Custom;
 using Rhino.DocObjects;
 /// <summary>
 /// title: Single Color Back Faces
+/// keywords: ['single', 'color', 'back', 'faces']
 /// </summary>
 partial class Examples
 {

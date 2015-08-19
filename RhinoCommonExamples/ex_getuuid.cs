@@ -4,6 +4,7 @@ using Rhino.DocObjects;
 using Rhino.Input;
 /// <summary>
 /// title: Get an Object's UUID
+/// keywords: ['objects', 'uuid']
 /// </summary>
 partial class Examples
 {

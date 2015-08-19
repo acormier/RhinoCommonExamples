@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using Rhino.Display;
 /// <summary>
 /// title: Modifying Advanced Display Settings
+/// keywords: ['modifying', 'advanced', 'display', 'settings']
 /// </summary>
 partial class Examples
 {

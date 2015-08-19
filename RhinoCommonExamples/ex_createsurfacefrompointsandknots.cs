@@ -3,6 +3,7 @@ using Rhino.Commands;
 using Rhino.Geometry;
 /// <summary>
 /// title: Create Surface From Points and Knots
+/// keywords: ['create', 'surface', 'points', 'knots']
 /// </summary>
 partial class Examples
 {

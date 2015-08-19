@@ -3,6 +3,7 @@ using System.Runtime.InteropServices;
 using Rhino;
 /// <summary>
 /// title: Custom Undo
+/// keywords: ['custom', 'undo']
 /// </summary>
 partial class Examples
 {

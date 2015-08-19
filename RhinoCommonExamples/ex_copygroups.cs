@@ -5,6 +5,7 @@ using Rhino.DocObjects;
 using Rhino.Geometry;
 /// <summary>
 /// title: Duplicating Objects With Group
+/// keywords: ['duplicating', 'objects', 'with', 'group']
 /// </summary>
 partial class Examples
 {

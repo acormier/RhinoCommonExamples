@@ -4,6 +4,7 @@ using Rhino.DocObjects;
 using Rhino.Geometry;
 /// <summary>
 /// title: Visual Analysis Modes
+/// keywords: ['visual', 'analysis', 'modes']
 /// </summary>
 partial class Examples
 {

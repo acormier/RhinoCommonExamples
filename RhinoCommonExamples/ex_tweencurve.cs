@@ -1,6 +1,7 @@
 using System;
 /// <summary>
 /// title: Tween Curve
+/// keywords: ['tween', 'curve']
 /// </summary>
 partial class Examples
 {

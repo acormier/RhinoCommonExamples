@@ -3,6 +3,7 @@ using Rhino.Commands;
 using Rhino.DocObjects;
 /// <summary>
 /// title: Iterate through Rhino's Geometry Table
+/// keywords: ['iterate', 'through', 'rhinos', 'geometry', 'table']
 /// </summary>
 partial class Examples
 {

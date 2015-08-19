@@ -1,6 +1,7 @@
 using System;
 /// <summary>
 /// title: Find Objects by Name
+/// keywords: ['find', 'objects', 'name']
 /// </summary>
 partial class Examples
 {

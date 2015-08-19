@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using Rhino.Commands;
 /// <summary>
 /// title: Boolean Difference
+/// keywords: ['boolean', 'difference']
 /// </summary>
 partial class Examples
 {

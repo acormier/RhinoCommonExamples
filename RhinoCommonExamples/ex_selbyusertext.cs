@@ -1,6 +1,7 @@
 using Rhino;
 /// <summary>
 /// title: Select by User Text
+/// keywords: ['select', 'user', 'text']
 /// </summary>
 partial class Examples
 {

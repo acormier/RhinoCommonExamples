@@ -4,6 +4,7 @@ using Rhino.DocObjects;
 using System;
 /// <summary>
 /// title: Get the point at the current cursor position
+/// keywords: ['point', 'current', 'cursor', 'position']
 /// </summary>
 partial class Examples
 {

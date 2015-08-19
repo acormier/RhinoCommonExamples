@@ -1,6 +1,7 @@
 using System;
 /// <summary>
 /// title: Add Nested Block
+/// keywords: ['add', 'nested', 'block']
 /// </summary>
 partial class Examples
 {

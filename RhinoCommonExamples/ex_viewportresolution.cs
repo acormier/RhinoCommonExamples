@@ -2,6 +2,7 @@ using Rhino;
 using Rhino.Commands;
 /// <summary>
 /// title: Print Active Viewport Resolution
+/// keywords: ['print', 'active', 'viewport', 'resolution']
 /// </summary>
 partial class Examples
 {

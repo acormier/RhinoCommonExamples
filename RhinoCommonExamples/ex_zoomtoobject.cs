@@ -1,5 +1,6 @@
 /// <summary>
 /// title: Zoom to a Selected Object
+/// keywords: ['zoom', 'selected', 'object']
 /// </summary>
 partial class Examples
 {

@@ -2,6 +2,7 @@ using System;
 using Rhino;
 /// <summary>
 /// title: Custom Python
+/// keywords: ['custom', 'python']
 /// </summary>
 partial class Examples
 {

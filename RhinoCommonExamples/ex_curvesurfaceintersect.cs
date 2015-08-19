@@ -6,6 +6,7 @@ using Rhino.DocObjects;
 using Rhino.Commands;
 /// <summary>
 /// title: Curve-Surface Intersection
+/// keywords: ['curve-surface', 'intersection']
 /// </summary>
 partial class Examples
 {

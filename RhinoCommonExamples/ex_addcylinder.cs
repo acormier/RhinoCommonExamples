@@ -1,5 +1,6 @@
 /// <summary>
 /// title: Add Cylinder to Rhino
+/// keywords: ['add', 'cylinder', 'rhino']
 /// </summary>
 partial class Examples
 {

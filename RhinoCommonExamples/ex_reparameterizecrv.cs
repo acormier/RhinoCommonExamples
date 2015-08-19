@@ -6,6 +6,7 @@ using Rhino.Geometry;
 using Rhino.Input;
 /// <summary>
 /// title: Reparamemterize a Curve
+/// keywords: ['reparamemterize', 'curve']
 /// </summary>
 partial class Examples
 {

@@ -1,6 +1,7 @@
 using Rhino;
 /// <summary>
 /// title: Array By Distance Command
+/// keywords: ['array', 'distance', 'command']
 /// </summary>
 partial class Examples
 {

@@ -5,6 +5,7 @@ using Rhino.Commands;
 using Rhino.Input.Custom;
 /// <summary>
 /// title: Dynamically Drawing Text Strings
+/// keywords: ['dynamically', 'drawing', 'text', 'strings']
 /// </summary>
 partial class Examples
 {

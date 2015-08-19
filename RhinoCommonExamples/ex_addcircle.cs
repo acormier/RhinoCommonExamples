@@ -1,6 +1,7 @@
 using System;
 /// <summary>
 /// title: Add Circle
+/// keywords: ['add', 'circle']
 /// </summary>
 partial class Examples
 {

@@ -7,6 +7,7 @@ using Rhino.DocObjects;
 using System.Collections.Generic;
 /// <summary>
 /// title: Tight Bounding Boxes for Breps
+/// keywords: ['tight', 'bounding', 'boxes', 'breps']
 /// </summary>
 partial class Examples
 {

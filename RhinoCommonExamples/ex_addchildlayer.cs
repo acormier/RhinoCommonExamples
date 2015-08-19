@@ -1,5 +1,6 @@
 /// <summary>
 /// title: Add Child Layer
+/// keywords: ['add', 'child', 'layer']
 /// </summary>
 partial class Examples
 {

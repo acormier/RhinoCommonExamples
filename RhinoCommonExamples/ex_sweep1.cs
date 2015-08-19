@@ -2,6 +2,7 @@ using Rhino.Input;
 using System.Collections.Generic;
 /// <summary>
 /// title: Sweeping Surfaces using Sweep1
+/// keywords: ['sweeping', 'surfaces', 'using', 'sweep1']
 /// </summary>
 partial class Examples
 {

@@ -5,6 +5,7 @@ using Rhino.Geometry;
 using Rhino.DocObjects;
 /// <summary>
 /// title: Volume of Meshes
+/// keywords: ['volume', 'meshes']
 /// </summary>
 partial class Examples
 {

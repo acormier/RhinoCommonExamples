@@ -7,6 +7,7 @@ using Rhino.Input.Custom;
 using Rhino.Commands;
 /// <summary>
 /// title: Create Contour Curves
+/// keywords: ['create', 'contour', 'curves']
 /// </summary>
 partial class Examples
 {

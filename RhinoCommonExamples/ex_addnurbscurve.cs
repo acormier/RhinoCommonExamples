@@ -1,6 +1,7 @@
 using System;
 /// <summary>
 /// title: Add NURBS Curve
+/// keywords: ['add', 'nurbs', 'curve']
 /// </summary>
 partial class Examples
 {

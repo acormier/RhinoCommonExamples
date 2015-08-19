@@ -4,6 +4,7 @@ using Rhino.FileIO;
 using Rhino.Commands;
 /// <summary>
 /// title: Instance Definition Tree
+/// keywords: ['instance', 'definition', 'tree']
 /// </summary>
 partial class Examples
 {

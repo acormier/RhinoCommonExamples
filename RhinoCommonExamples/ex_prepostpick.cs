@@ -3,6 +3,7 @@ using Rhino;
 using Rhino.Commands;
 /// <summary>
 /// title: Pre-Pick and Post-Pick Objects
+/// keywords: ['pre-pick', 'post-pick', 'objects']
 /// </summary>
 partial class Examples
 {

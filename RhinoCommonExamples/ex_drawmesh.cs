@@ -7,6 +7,7 @@ using Rhino.DocObjects;
 using System.Drawing;
 /// <summary>
 /// title: Draw Mesh
+/// keywords: ['draw', 'mesh']
 /// </summary>
 partial class Examples
 {

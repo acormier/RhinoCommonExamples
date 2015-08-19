@@ -5,6 +5,7 @@ using Rhino.Geometry;
 using Rhino.DocObjects;
 /// <summary>
 /// title: Create Meshes from Brep
+/// keywords: ['create', 'meshes', 'brep']
 /// </summary>
 partial class Examples
 {

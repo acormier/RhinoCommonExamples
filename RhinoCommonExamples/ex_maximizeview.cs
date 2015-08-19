@@ -4,6 +4,7 @@ using Rhino;
 using Rhino.Commands;
 /// <summary>
 /// title: Maximize a View
+/// keywords: ['maximize', 'view']
 /// </summary>
 partial class Examples
 {

@@ -9,6 +9,7 @@ using Rhino.Input;
 using Rhino.DocObjects;
 /// <summary>
 /// title: Display Order
+/// keywords: ['display', 'order']
 /// </summary>
 partial class Examples
 {

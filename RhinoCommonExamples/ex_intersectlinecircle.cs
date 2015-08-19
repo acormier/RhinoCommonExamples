@@ -5,6 +5,7 @@ using Rhino.Geometry;
 using Rhino.Geometry.Intersect;
 /// <summary>
 /// title: Intersecting a Line with a Circle
+/// keywords: ['intersecting', 'line', 'with', 'circle']
 /// </summary>
 partial class Examples
 {

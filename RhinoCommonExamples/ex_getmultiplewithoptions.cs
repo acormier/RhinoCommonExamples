@@ -1,5 +1,6 @@
 /// <summary>
 /// title: Get Multiple With Options
+/// keywords: ['multiple', 'with', 'options']
 /// </summary>
 partial class Examples
 {

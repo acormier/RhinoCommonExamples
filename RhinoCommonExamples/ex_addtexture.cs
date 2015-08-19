@@ -1,6 +1,7 @@
 using Rhino.DocObjects;
 /// <summary>
 /// title: Add Texture
+/// keywords: ['add', 'texture']
 /// </summary>
 partial class Examples
 {

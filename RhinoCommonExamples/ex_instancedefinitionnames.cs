@@ -3,6 +3,7 @@ using Rhino.Commands;
 using System.Linq;
 /// <summary>
 /// title: Instance Definition Names
+/// keywords: ['instance', 'definition', 'names']
 /// </summary>
 partial class Examples
 {

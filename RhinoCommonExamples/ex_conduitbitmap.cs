@@ -4,6 +4,7 @@ using Rhino.Commands;
 using Rhino.Display;
 /// <summary>
 /// title: draw a non-square bitmap in a display conduit
+/// keywords: ['draw', 'non-square', 'bitmap', 'display', 'conduit']
 /// </summary>
 partial class Examples
 {

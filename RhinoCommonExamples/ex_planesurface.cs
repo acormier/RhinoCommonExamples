@@ -3,6 +3,7 @@ using Rhino.Geometry;
 using Rhino.Commands;
 /// <summary>
 /// title: Create a Plane Surface
+/// keywords: ['create', 'plane', 'surface']
 /// </summary>
 partial class Examples
 {
