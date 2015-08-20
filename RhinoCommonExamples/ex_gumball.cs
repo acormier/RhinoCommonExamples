@@ -3,6 +3,7 @@ using Rhino.Geometry;
 /// <summary>
 /// title: Add Gumball
 /// keywords: ['add', 'gumball']
+/// categories: ['Adding Objects']
 /// </summary>
 partial class Examples
 {

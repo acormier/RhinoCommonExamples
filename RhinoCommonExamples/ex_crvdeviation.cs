@@ -7,6 +7,7 @@ using Rhino.Input;
 /// <summary>
 /// title: Determine the Deviation between two Curves
 /// keywords: ['determine', 'deviation', 'between', 'curves']
+/// categories: ['Curves']
 /// </summary>
 partial class Examples
 {

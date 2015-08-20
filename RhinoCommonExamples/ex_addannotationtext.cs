@@ -2,6 +2,7 @@ using System;
 /// <summary>
 /// title: Add Annotation Text
 /// keywords: ['add', 'annotation', 'text']
+/// categories: ['Adding Objects']
 /// </summary>
 partial class Examples
 {

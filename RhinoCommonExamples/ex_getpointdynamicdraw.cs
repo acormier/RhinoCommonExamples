@@ -5,6 +5,7 @@ using Rhino.Input.Custom;
 /// <summary>
 /// title: Dynamically Draw Geometry when Picking Points
 /// keywords: ['dynamically', 'draw', 'geometry', 'when', 'picking', 'points']
+/// categories: ['Draw', 'Picking and Selection']
 /// </summary>
 partial class Examples
 {

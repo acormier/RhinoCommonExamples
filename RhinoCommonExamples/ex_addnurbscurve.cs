@@ -2,6 +2,7 @@ using System;
 /// <summary>
 /// title: Add NURBS Curve
 /// keywords: ['add', 'nurbs', 'curve']
+/// categories: ['Adding Objects', 'Curves']
 /// </summary>
 partial class Examples
 {

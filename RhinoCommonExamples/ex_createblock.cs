@@ -2,6 +2,7 @@ using Rhino.DocObjects;
 /// <summary>
 /// title: Add a block definition
 /// keywords: ['add', 'block', 'definition']
+/// categories: ['Adding Objects', 'Blocks']
 /// </summary>
 partial class Examples
 {

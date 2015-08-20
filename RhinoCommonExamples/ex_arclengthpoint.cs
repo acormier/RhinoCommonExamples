@@ -1,6 +1,7 @@
 /// <summary>
 /// title: Find point on curve at distance
 /// keywords: ['find', 'point', 'curve', 'distance']
+/// categories: ['Curves']
 /// </summary>
 partial class Examples
 {

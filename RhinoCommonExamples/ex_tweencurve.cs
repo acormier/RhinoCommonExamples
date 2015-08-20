@@ -2,6 +2,7 @@ using System;
 /// <summary>
 /// title: Tween Curve
 /// keywords: ['tween', 'curve']
+/// categories: ['Curves']
 /// </summary>
 partial class Examples
 {

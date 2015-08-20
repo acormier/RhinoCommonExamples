@@ -4,6 +4,7 @@ using Rhino.Commands;
 /// <summary>
 /// title: Delete Instance Definition (Block)
 /// keywords: ['delete', 'instance', 'definition', 'block']
+/// categories: ['Blocks']
 /// </summary>
 partial class Examples
 {

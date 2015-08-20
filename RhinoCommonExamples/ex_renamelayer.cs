@@ -7,6 +7,7 @@ using System.Linq;
 /// <summary>
 /// title: Rename a Layer
 /// keywords: ['rename', 'layer']
+/// categories: ['Layers']
 /// </summary>
 partial class Examples
 {

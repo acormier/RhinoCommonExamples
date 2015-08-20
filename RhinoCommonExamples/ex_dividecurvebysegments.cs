@@ -6,6 +6,7 @@ using Rhino.Geometry;
 /// <summary>
 /// title: Divide Curve by Segments
 /// keywords: ['divide', 'curve', 'segments']
+/// categories: ['Curves']
 /// </summary>
 partial class Examples
 {

@@ -5,6 +5,7 @@ using Rhino.Commands;
 /// <summary>
 /// title: Maximize a View
 /// keywords: ['maximize', 'view']
+/// categories: ['Viewports and Views']
 /// </summary>
 partial class Examples
 {

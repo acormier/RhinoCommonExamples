@@ -2,6 +2,7 @@ using Rhino.Geometry;
 /// <summary>
 /// title: Intersecting line curves
 /// keywords: ['intersecting', 'line', 'curves']
+/// categories: ['Curves']
 /// </summary>
 partial class Examples
 {

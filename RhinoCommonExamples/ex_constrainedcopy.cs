@@ -2,6 +2,7 @@ using System;
 /// <summary>
 /// title: Use a constrained GetPoint to copy a curve
 /// keywords: ['constrained', 'getpoint', 'copy', 'curve']
+/// categories: ['Curves']
 /// </summary>
 partial class Examples
 {

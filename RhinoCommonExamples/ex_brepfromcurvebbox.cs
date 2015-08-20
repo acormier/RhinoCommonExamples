@@ -6,6 +6,7 @@ using Rhino.DocObjects;
 /// <summary>
 /// title: Brep from Curve Bounding Box
 /// keywords: ['brep', 'curve', 'bounding']
+/// categories: ['Curves']
 /// </summary>
 partial class Examples
 {

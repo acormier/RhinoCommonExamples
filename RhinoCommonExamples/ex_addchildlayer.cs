@@ -1,6 +1,7 @@
 /// <summary>
 /// title: Add Child Layer
 /// keywords: ['add', 'child', 'layer']
+/// categories: ['Adding Objects', 'Layers']
 /// </summary>
 partial class Examples
 {

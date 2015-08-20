@@ -2,6 +2,7 @@ using System;
 /// <summary>
 /// title: Add Linear Dimension
 /// keywords: ['add', 'linear', 'dimension']
+/// categories: ['Adding Objects']
 /// </summary>
 partial class Examples
 {

@@ -2,6 +2,7 @@ using Rhino.Commands;
 /// <summary>
 /// title: Select objects on layer
 /// keywords: ['select', 'objects', 'layer']
+/// categories: ['Picking and Selection', 'Adding Objects', 'Layers']
 /// </summary>
 partial class Examples
 {

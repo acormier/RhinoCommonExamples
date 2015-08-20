@@ -2,6 +2,7 @@ using System;
 /// <summary>
 /// title: Add Line
 /// keywords: ['add', 'line']
+/// categories: ['Adding Objects']
 /// </summary>
 partial class Examples
 {

@@ -6,6 +6,7 @@ using Rhino.Commands;
 /// <summary>
 /// title: Find Curve Parameter At Point
 /// keywords: ['find', 'curve', 'parameter', 'point']
+/// categories: ['Curves']
 /// </summary>
 partial class Examples
 {

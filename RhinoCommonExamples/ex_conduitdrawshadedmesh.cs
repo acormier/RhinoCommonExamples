@@ -2,6 +2,7 @@ using System;
 /// <summary>
 /// title: Conduit Draw Shaded Mesh
 /// keywords: ['conduit', 'draw', 'shaded', 'mesh']
+/// categories: ['Draw']
 /// </summary>
 partial class Examples
 {

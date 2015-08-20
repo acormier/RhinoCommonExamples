@@ -2,6 +2,7 @@ using System;
 /// <summary>
 /// title: Add Mesh Box
 /// keywords: ['add', 'mesh']
+/// categories: ['Adding Objects']
 /// </summary>
 partial class Examples
 {

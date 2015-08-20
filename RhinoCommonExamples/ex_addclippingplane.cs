@@ -2,6 +2,7 @@ using System;
 /// <summary>
 /// title: Add Clipping Plane
 /// keywords: ['add', 'clipping', 'plane']
+/// categories: ['Adding Objects']
 /// </summary>
 partial class Examples
 {

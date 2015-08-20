@@ -2,6 +2,7 @@ using System;
 /// <summary>
 /// title: Add Torus
 /// keywords: ['add', 'torus']
+/// categories: ['Adding Objects']
 /// </summary>
 partial class Examples
 {

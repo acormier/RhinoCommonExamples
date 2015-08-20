@@ -1,6 +1,7 @@
 /// <summary>
 /// title: Add Named View
 /// keywords: ['add', 'named', 'view']
+/// categories: ['Adding Objects', 'Viewports and Views']
 /// </summary>
 partial class Examples
 {

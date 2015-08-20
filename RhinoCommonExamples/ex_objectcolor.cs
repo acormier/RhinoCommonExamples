@@ -1,6 +1,7 @@
 /// <summary>
 /// title: Object Color
 /// keywords: ['object', 'color']
+/// categories: ['Adding Objects']
 /// </summary>
 partial class Examples
 {

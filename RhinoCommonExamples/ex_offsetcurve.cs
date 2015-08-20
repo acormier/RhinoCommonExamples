@@ -6,6 +6,7 @@ using Rhino.Commands;
 /// <summary>
 /// title: Offset a Curve
 /// keywords: ['offset', 'curve']
+/// categories: ['Curves']
 /// </summary>
 partial class Examples
 {

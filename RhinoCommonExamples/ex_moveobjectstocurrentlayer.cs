@@ -4,6 +4,7 @@ using Rhino.DocObjects;
 /// <summary>
 /// title: Move Selected Objects to Current Layer
 /// keywords: ['move', 'selected', 'objects', 'current', 'layer']
+/// categories: ['Adding Objects', 'Layers']
 /// </summary>
 partial class Examples
 {

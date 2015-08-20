@@ -7,6 +7,7 @@ using Rhino.Commands;
 /// <summary>
 /// title: Modify an Object's Color
 /// keywords: ['modify', 'objects', 'color']
+/// categories: ['Adding Objects']
 /// </summary>
 partial class Examples
 {

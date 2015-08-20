@@ -1,6 +1,7 @@
 /// <summary>
 /// title: Add a layout with a detail view
 /// keywords: ['add', 'layout', 'with', 'detail', 'view']
+/// categories: ['Adding Objects', 'Viewports and Views']
 /// </summary>
 partial class Examples
 {

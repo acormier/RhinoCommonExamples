@@ -1,6 +1,7 @@
 /// <summary>
 /// title: Move Grip Objects
 /// keywords: ['move', 'grip', 'objects']
+/// categories: ['Adding Objects']
 /// </summary>
 partial class Examples
 {

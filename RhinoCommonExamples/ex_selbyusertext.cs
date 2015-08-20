@@ -2,6 +2,7 @@ using Rhino;
 /// <summary>
 /// title: Select by User Text
 /// keywords: ['select', 'user', 'text']
+/// categories: ['Picking and Selection']
 /// </summary>
 partial class Examples
 {

@@ -6,6 +6,7 @@ using Rhino.Input;
 /// <summary>
 /// title: Select Objects in an Object's Groups
 /// keywords: ['select', 'objects', 'groups']
+/// categories: ['Picking and Selection', 'Adding Objects']
 /// </summary>
 partial class Examples
 {

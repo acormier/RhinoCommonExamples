@@ -8,6 +8,7 @@ using System.Drawing;
 /// <summary>
 /// title: Draw Mesh
 /// keywords: ['draw', 'mesh']
+/// categories: ['Draw']
 /// </summary>
 partial class Examples
 {

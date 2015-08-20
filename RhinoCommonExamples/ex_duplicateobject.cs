@@ -6,6 +6,7 @@ using Rhino.Input;
 /// <summary>
 /// title: Clone (Copy, Duplicate) a Rhino Object
 /// keywords: ['clone', 'copy,', 'duplicate', 'rhino', 'object']
+/// categories: ['Adding Objects']
 /// </summary>
 partial class Examples
 {

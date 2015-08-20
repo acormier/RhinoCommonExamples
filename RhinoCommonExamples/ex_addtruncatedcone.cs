@@ -3,6 +3,7 @@ using Rhino.Geometry;
 /// <summary>
 /// title: Add Truncated Cone
 /// keywords: ['add', 'truncated', 'cone']
+/// categories: ['Adding Objects']
 /// </summary>
 partial class Examples
 {

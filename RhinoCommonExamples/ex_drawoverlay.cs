@@ -2,6 +2,7 @@ using Rhino;
 /// <summary>
 /// title: Display conduit to draw overlay text
 /// keywords: ['display', 'conduit', 'draw', 'overlay', 'text']
+/// categories: ['Draw']
 /// </summary>
 partial class Examples
 {

@@ -7,6 +7,7 @@ using Rhino.Input.Custom;
 /// <summary>
 /// title: fillet curves
 /// keywords: ['fillet', 'curves']
+/// categories: ['Curves']
 /// </summary>
 partial class Examples
 {

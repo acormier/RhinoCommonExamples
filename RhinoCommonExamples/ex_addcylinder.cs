@@ -1,6 +1,7 @@
 /// <summary>
 /// title: Add Cylinder to Rhino
 /// keywords: ['add', 'cylinder', 'rhino']
+/// categories: ['Adding Objects']
 /// </summary>
 partial class Examples
 {

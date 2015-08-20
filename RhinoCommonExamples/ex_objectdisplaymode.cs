@@ -5,6 +5,7 @@ using Rhino.DocObjects;
 /// <summary>
 /// title: Set object display mode
 /// keywords: ['object', 'display', 'mode']
+/// categories: ['Adding Objects']
 /// </summary>
 partial class Examples
 {

@@ -6,6 +6,7 @@ using Rhino.Input.Custom;
 /// <summary>
 /// title: Pick Points
 /// keywords: ['pick', 'points']
+/// categories: ['Picking and Selection']
 /// </summary>
 partial class Examples
 {

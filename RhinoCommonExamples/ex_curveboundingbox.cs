@@ -1,6 +1,7 @@
 /// <summary>
 /// title: Curve Bounding Box (world and plane oriented)
 /// keywords: ['curve', 'bounding', 'world', 'plane', 'oriented']
+/// categories: ['Curves']
 /// </summary>
 partial class Examples
 {

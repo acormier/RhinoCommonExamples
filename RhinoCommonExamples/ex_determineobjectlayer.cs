@@ -1,6 +1,7 @@
 /// <summary>
 /// title: Determine an Object's Layer
 /// keywords: ['determine', 'objects', 'layer']
+/// categories: ['Adding Objects', 'Layers']
 /// </summary>
 partial class Examples
 {

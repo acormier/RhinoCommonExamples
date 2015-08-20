@@ -5,6 +5,7 @@ using Rhino.Input;
 /// <summary>
 /// title: Get an Object's UUID
 /// keywords: ['objects', 'uuid']
+/// categories: ['Adding Objects']
 /// </summary>
 partial class Examples
 {

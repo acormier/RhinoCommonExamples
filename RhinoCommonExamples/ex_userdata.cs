@@ -4,6 +4,7 @@ using System.Runtime.InteropServices;
 /// <summary>
 /// title: Info: RhinoCommon object plug-in user data
 /// keywords: ['info:', 'rhinocommon', 'object', 'plug-in', 'user', 'data']
+/// categories: ['Adding Objects']
 /// </summary>
 partial class Examples
 {

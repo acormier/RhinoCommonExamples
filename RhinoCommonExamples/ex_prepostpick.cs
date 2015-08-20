@@ -4,6 +4,7 @@ using Rhino.Commands;
 /// <summary>
 /// title: Pre-Pick and Post-Pick Objects
 /// keywords: ['pre-pick', 'post-pick', 'objects']
+/// categories: ['Adding Objects']
 /// </summary>
 partial class Examples
 {

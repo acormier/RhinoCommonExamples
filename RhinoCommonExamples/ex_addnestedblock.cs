@@ -2,6 +2,7 @@ using System;
 /// <summary>
 /// title: Add Nested Block
 /// keywords: ['add', 'nested', 'block']
+/// categories: ['Adding Objects', 'Blocks']
 /// </summary>
 partial class Examples
 {

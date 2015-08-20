@@ -2,6 +2,7 @@ using Rhino.Geometry;
 /// <summary>
 /// title: Add Twisted Cube
 /// keywords: ['add', 'twisted', 'cube']
+/// categories: ['Adding Objects']
 /// </summary>
 partial class Examples
 {

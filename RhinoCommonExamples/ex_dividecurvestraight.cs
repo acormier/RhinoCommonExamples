@@ -10,6 +10,7 @@ using Rhino.Geometry.Intersect;
 /// <summary>
 /// title: Divide a curve using equi-distance points
 /// keywords: ['divide', 'curve', 'using', 'equi-distance', 'points']
+/// categories: ['Curves']
 /// </summary>
 partial class Examples
 {

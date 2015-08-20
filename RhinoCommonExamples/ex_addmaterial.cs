@@ -1,6 +1,7 @@
 /// <summary>
 /// title: Add a basic Material
 /// keywords: ['add', 'basic', 'material']
+/// categories: ['Adding Objects']
 /// </summary>
 partial class Examples
 {

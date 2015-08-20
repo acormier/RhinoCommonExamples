@@ -6,6 +6,7 @@ using System.Linq;
 /// <summary>
 /// title: Lock a Layer
 /// keywords: ['lock', 'layer']
+/// categories: ['Blocks', 'Layers']
 /// </summary>
 partial class Examples
 {

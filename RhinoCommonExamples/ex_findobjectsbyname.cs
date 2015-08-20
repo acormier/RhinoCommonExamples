@@ -2,6 +2,7 @@ using System;
 /// <summary>
 /// title: Find Objects by Name
 /// keywords: ['find', 'objects', 'name']
+/// categories: ['Adding Objects']
 /// </summary>
 partial class Examples
 {

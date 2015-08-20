@@ -3,6 +3,7 @@ using Rhino.Commands;
 /// <summary>
 /// title: Setting a Viewport's Title
 /// keywords: ['setting', 'viewports', 'title']
+/// categories: ['Viewports and Views']
 /// </summary>
 partial class Examples
 {

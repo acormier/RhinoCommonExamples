@@ -2,6 +2,7 @@ using System;
 /// <summary>
 /// title: Add Sphere
 /// keywords: ['add', 'sphere']
+/// categories: ['Adding Objects']
 /// </summary>
 partial class Examples
 {

@@ -1,6 +1,7 @@
 /// <summary>
 /// title: List Block Definition Geometry
 /// keywords: ['list', 'block', 'definition', 'geometry']
+/// categories: ['Blocks']
 /// </summary>
 partial class Examples
 {

@@ -6,6 +6,7 @@ using System.Linq;
 /// <summary>
 /// title: Get and Set the Active View
 /// keywords: ['active', 'view']
+/// categories: ['Viewports and Views']
 /// </summary>
 partial class Examples
 {

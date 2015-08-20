@@ -6,6 +6,7 @@ using Rhino.Geometry;
 /// <summary>
 /// title: Duplicating Objects With Group
 /// keywords: ['duplicating', 'objects', 'with', 'group']
+/// categories: ['Adding Objects']
 /// </summary>
 partial class Examples
 {

@@ -4,6 +4,7 @@ using Rhino.Commands;
 /// <summary>
 /// title: Rename Instance Definition (Block)
 /// keywords: ['rename', 'instance', 'definition', 'block']
+/// categories: ['Blocks']
 /// </summary>
 partial class Examples
 {

@@ -8,6 +8,7 @@ using Rhino.Commands;
 /// <summary>
 /// title: Create Contour Curves
 /// keywords: ['create', 'contour', 'curves']
+/// categories: ['Curves']
 /// </summary>
 partial class Examples
 {

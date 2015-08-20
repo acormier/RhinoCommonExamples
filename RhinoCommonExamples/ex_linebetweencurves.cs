@@ -2,6 +2,7 @@ using System;
 /// <summary>
 /// title: Line Between Curves
 /// keywords: ['line', 'between', 'curves']
+/// categories: ['Curves']
 /// </summary>
 partial class Examples
 {

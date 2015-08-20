@@ -8,6 +8,7 @@ using Rhino.Input.Custom;
 /// <summary>
 /// title: Extend a Curve Object
 /// keywords: ['extend', 'curve', 'object']
+/// categories: ['Curves', 'Adding Objects']
 /// </summary>
 partial class Examples
 {

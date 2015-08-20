@@ -2,6 +2,7 @@ using System;
 /// <summary>
 /// title: Add NURBS Circle
 /// keywords: ['add', 'nurbs', 'circle']
+/// categories: ['Adding Objects']
 /// </summary>
 partial class Examples
 {

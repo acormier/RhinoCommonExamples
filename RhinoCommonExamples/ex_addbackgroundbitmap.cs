@@ -2,6 +2,7 @@ using System;
 /// <summary>
 /// title: Add Background Bitmap
 /// keywords: ['add', 'background', 'bitmap']
+/// categories: ['Adding Objects']
 /// </summary>
 partial class Examples
 {

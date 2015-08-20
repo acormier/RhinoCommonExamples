@@ -1,6 +1,7 @@
 /// <summary>
 /// title: Add Cone
 /// keywords: ['add', 'cone']
+/// categories: ['Adding Objects']
 /// </summary>
 partial class Examples
 {

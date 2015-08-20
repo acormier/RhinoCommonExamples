@@ -5,6 +5,7 @@ using Rhino.Commands;
 /// <summary>
 /// title: Rename Object
 /// keywords: ['rename', 'object']
+/// categories: ['Adding Objects']
 /// </summary>
 partial class Examples
 {

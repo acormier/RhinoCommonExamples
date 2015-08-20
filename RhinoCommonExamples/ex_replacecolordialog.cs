@@ -5,6 +5,7 @@ using Eto.Forms;
 /// <summary>
 /// title: Replace Rhino's Color Picking Dialog
 /// keywords: ['replace', 'rhinos', 'color', 'picking', 'dialog']
+/// categories: ['Picking and Selection']
 /// </summary>
 partial class Examples
 {
