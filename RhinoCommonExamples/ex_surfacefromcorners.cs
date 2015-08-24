@@ -4,6 +4,7 @@ using Rhino.Commands;
 /// <summary>
 /// title: Surface from Corner Points
 /// keywords: ['surface', 'corner', 'points']
+/// categories: ['Other']
 /// </summary>
 partial class Examples
 {

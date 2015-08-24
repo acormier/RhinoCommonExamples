@@ -3,6 +3,7 @@ using Rhino.DocObjects;
 /// <summary>
 /// title: Unrolling a developable surface
 /// keywords: ['unrolling', 'developable', 'surface']
+/// categories: ['Other']
 /// </summary>
 partial class Examples
 {

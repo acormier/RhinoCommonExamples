@@ -6,6 +6,7 @@ using System.Linq;
 /// <summary>
 /// title: Creating a Leader
 /// keywords: ['creating', 'leader']
+/// categories: ['Other']
 /// </summary>
 partial class Examples
 {

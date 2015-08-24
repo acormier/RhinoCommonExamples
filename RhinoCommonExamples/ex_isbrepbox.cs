@@ -2,6 +2,7 @@ using System;
 /// <summary>
 /// title: IsBrepBox Test
 /// keywords: ['isbrepbox', 'test']
+/// categories: ['Other']
 /// </summary>
 partial class Examples
 {

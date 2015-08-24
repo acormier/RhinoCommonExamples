@@ -2,6 +2,7 @@ using Rhino.DocObjects;
 /// <summary>
 /// title: Divide by Length Points
 /// keywords: ['divide', 'length', 'points']
+/// categories: ['Other']
 /// </summary>
 partial class Examples
 {

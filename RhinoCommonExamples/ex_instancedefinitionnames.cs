@@ -4,6 +4,7 @@ using System.Linq;
 /// <summary>
 /// title: Instance Definition Names
 /// keywords: ['instance', 'definition', 'names']
+/// categories: ['Other']
 /// </summary>
 partial class Examples
 {

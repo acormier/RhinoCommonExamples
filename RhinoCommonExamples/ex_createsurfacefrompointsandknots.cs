@@ -4,6 +4,7 @@ using Rhino.Geometry;
 /// <summary>
 /// title: Create Surface From Points and Knots
 /// keywords: ['create', 'surface', 'points', 'knots']
+/// categories: ['Other']
 /// </summary>
 partial class Examples
 {

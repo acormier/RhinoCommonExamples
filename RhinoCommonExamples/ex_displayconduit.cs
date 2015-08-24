@@ -5,6 +5,7 @@ using Rhino.Display;
 /// <summary>
 /// title: Display Conduit Introduction for RhinoCommon
 /// keywords: ['display', 'conduit', 'introduction', 'rhinocommon']
+/// categories: ['Other']
 /// </summary>
 partial class Examples
 {

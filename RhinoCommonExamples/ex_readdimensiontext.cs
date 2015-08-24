@@ -5,6 +5,7 @@ using Rhino.Input.Custom;
 /// <summary>
 /// title: Read Dimension Text
 /// keywords: ['read', 'dimension', 'text']
+/// categories: ['Other']
 /// </summary>
 partial class Examples
 {

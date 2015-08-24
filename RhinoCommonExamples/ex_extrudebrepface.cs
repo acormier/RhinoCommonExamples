@@ -1,6 +1,7 @@
 /// <summary>
 /// title: Extrude Brep Face
 /// keywords: ['extrude', 'brep', 'face']
+/// categories: ['Other']
 /// </summary>
 partial class Examples
 {

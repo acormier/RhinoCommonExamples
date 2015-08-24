@@ -5,6 +5,7 @@ using Rhino.Commands;
 /// <summary>
 /// title: Calculate Surface Curvature
 /// keywords: ['calculate', 'surface', 'curvature']
+/// categories: ['Other']
 /// </summary>
 partial class Examples
 {

@@ -6,6 +6,7 @@ using Rhino.Input.Custom;
 /// <summary>
 /// title: Extend a Surface
 /// keywords: ['extend', 'surface']
+/// categories: ['Other']
 /// </summary>
 partial class Examples
 {

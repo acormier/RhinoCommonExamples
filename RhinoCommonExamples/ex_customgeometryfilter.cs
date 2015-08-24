@@ -6,6 +6,7 @@ using Rhino.DocObjects;
 /// <summary>
 /// title: Create a specialized GetObject with a Custom Geometry Filter
 /// keywords: ['create', 'specialized', 'getobject', 'with', 'custom', 'geometry', 'filter']
+/// categories: ['Other']
 /// </summary>
 partial class Examples
 {

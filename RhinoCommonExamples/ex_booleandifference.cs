@@ -3,6 +3,7 @@ using Rhino.Commands;
 /// <summary>
 /// title: Boolean Difference
 /// keywords: ['boolean', 'difference']
+/// categories: ['Other']
 /// </summary>
 partial class Examples
 {

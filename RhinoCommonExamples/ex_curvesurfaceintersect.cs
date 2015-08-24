@@ -7,6 +7,7 @@ using Rhino.Commands;
 /// <summary>
 /// title: Curve-Surface Intersection
 /// keywords: ['curve-surface', 'intersection']
+/// categories: ['Other']
 /// </summary>
 partial class Examples
 {

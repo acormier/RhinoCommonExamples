@@ -4,6 +4,7 @@ using Rhino;
 /// <summary>
 /// title: Custom Undo
 /// keywords: ['custom', 'undo']
+/// categories: ['Other']
 /// </summary>
 partial class Examples
 {

@@ -3,6 +3,7 @@ using Rhino.DocObjects;
 /// <summary>
 /// title: Insert Knot
 /// keywords: ['insert', 'knot']
+/// categories: ['Other']
 /// </summary>
 partial class Examples
 {

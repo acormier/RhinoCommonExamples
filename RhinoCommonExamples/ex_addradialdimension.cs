@@ -6,6 +6,7 @@ using Rhino.Input;
 /// <summary>
 /// title: Create Radial Dimensions
 /// keywords: ['create', 'radial', 'dimensions']
+/// categories: ['Other']
 /// </summary>
 partial class Examples
 {

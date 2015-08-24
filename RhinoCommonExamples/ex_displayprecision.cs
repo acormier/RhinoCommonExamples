@@ -4,6 +4,7 @@ using Rhino.Commands;
 /// <summary>
 /// title: Changing Display Precision
 /// keywords: ['changing', 'display', 'precision']
+/// categories: ['Other']
 /// </summary>
 partial class Examples
 {

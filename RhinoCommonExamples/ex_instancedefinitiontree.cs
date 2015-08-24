@@ -5,6 +5,7 @@ using Rhino.Commands;
 /// <summary>
 /// title: Instance Definition Tree
 /// keywords: ['instance', 'definition', 'tree']
+/// categories: ['Other']
 /// </summary>
 partial class Examples
 {

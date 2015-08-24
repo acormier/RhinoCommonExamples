@@ -3,6 +3,7 @@ using Rhino.DocObjects;
 /// <summary>
 /// title: Duplicate borders of a surface
 /// keywords: ['duplicate', 'borders', 'surface']
+/// categories: ['Other']
 /// </summary>
 partial class Examples
 {

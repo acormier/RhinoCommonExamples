@@ -1,6 +1,7 @@
 /// <summary>
 /// title: Orient On Surface
 /// keywords: ['orient', 'surface']
+/// categories: ['Other']
 /// </summary>
 partial class Examples
 {

@@ -2,6 +2,7 @@ using Rhino.Input;
 /// <summary>
 /// title: Transform a Brep
 /// keywords: ['transform', 'brep']
+/// categories: ['Other']
 /// </summary>
 partial class Examples
 {

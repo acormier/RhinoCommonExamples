@@ -5,6 +5,7 @@ using Rhino.Input;
 /// <summary>
 /// title: Move Points Non Uniform
 /// keywords: ['move', 'points', 'uniform']
+/// categories: ['Other']
 /// </summary>
 partial class Examples
 {

@@ -6,6 +6,7 @@ using Rhino.DocObjects;
 /// <summary>
 /// title: Create Meshes from Brep
 /// keywords: ['create', 'meshes', 'brep']
+/// categories: ['Other']
 /// </summary>
 partial class Examples
 {

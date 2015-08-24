@@ -5,6 +5,7 @@ using System;
 /// <summary>
 /// title: Get the point at the current cursor position
 /// keywords: ['point', 'current', 'cursor', 'position']
+/// categories: ['Other']
 /// </summary>
 partial class Examples
 {

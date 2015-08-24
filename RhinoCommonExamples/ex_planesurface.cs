@@ -4,6 +4,7 @@ using Rhino.Commands;
 /// <summary>
 /// title: Create a Plane Surface
 /// keywords: ['create', 'plane', 'surface']
+/// categories: ['Other']
 /// </summary>
 partial class Examples
 {

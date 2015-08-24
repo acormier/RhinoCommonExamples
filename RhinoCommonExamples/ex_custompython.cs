@@ -3,6 +3,7 @@ using Rhino;
 /// <summary>
 /// title: Custom Python
 /// keywords: ['custom', 'python']
+/// categories: ['Other']
 /// </summary>
 partial class Examples
 {

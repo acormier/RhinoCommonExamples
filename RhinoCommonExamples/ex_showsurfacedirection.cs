@@ -3,6 +3,7 @@ using Rhino.Geometry;
 /// <summary>
 /// title: Show Surface Direction
 /// keywords: ['show', 'surface', 'direction']
+/// categories: ['Other']
 /// </summary>
 partial class Examples
 {

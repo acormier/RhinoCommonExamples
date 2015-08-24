@@ -7,6 +7,7 @@ using Rhino.DocObjects;
 /// <summary>
 /// title: Single Color Back Faces
 /// keywords: ['single', 'color', 'back', 'faces']
+/// categories: ['Other']
 /// </summary>
 partial class Examples
 {

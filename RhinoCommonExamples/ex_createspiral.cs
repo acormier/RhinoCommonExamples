@@ -2,6 +2,7 @@ using System;
 /// <summary>
 /// title: Create Spiral
 /// keywords: ['create', 'spiral']
+/// categories: ['Other']
 /// </summary>
 partial class Examples
 {

@@ -8,6 +8,7 @@ using System.Collections.Generic;
 /// <summary>
 /// title: Tight Bounding Boxes for Breps
 /// keywords: ['tight', 'bounding', 'boxes', 'breps']
+/// categories: ['Other']
 /// </summary>
 partial class Examples
 {

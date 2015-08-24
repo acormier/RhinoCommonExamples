@@ -6,6 +6,7 @@ using Rhino.Geometry.Intersect;
 /// <summary>
 /// title: Intersecting a Line with a Circle
 /// keywords: ['intersecting', 'line', 'with', 'circle']
+/// categories: ['Other']
 /// </summary>
 partial class Examples
 {

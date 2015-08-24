@@ -3,6 +3,7 @@ using System.Collections.Generic;
 /// <summary>
 /// title: Sweeping Surfaces using Sweep1
 /// keywords: ['sweeping', 'surfaces', 'using', 'sweep1']
+/// categories: ['Other']
 /// </summary>
 partial class Examples
 {

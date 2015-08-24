@@ -2,6 +2,7 @@ using Rhino;
 /// <summary>
 /// title: Array By Distance Command
 /// keywords: ['array', 'distance', 'command']
+/// categories: ['Other']
 /// </summary>
 partial class Examples
 {

@@ -2,6 +2,7 @@ using Rhino.DocObjects;
 /// <summary>
 /// title: Explode a Hatch
 /// keywords: ['explode', 'hatch']
+/// categories: ['Other']
 /// </summary>
 partial class Examples
 {

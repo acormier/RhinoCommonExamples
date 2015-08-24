@@ -2,6 +2,7 @@ using Rhino.Geometry;
 /// <summary>
 /// title: Move CPlane
 /// keywords: ['move', 'cplane']
+/// categories: ['Other']
 /// </summary>
 partial class Examples
 {

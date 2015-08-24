@@ -6,6 +6,7 @@ using Rhino.Geometry;
 /// <summary>
 /// title: Split a Set of BReps with a Plane
 /// keywords: ['split', 'breps', 'with', 'plane']
+/// categories: ['Other']
 /// </summary>
 partial class Examples
 {

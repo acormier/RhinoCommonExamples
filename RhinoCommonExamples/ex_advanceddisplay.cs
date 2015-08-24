@@ -3,6 +3,7 @@ using Rhino.Display;
 /// <summary>
 /// title: Modifying Advanced Display Settings
 /// keywords: ['modifying', 'advanced', 'display', 'settings']
+/// categories: ['Other']
 /// </summary>
 partial class Examples
 {

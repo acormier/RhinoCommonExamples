@@ -10,6 +10,7 @@ using Rhino.DocObjects;
 /// <summary>
 /// title: Display Order
 /// keywords: ['display', 'order']
+/// categories: ['Other']
 /// </summary>
 partial class Examples
 {

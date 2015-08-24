@@ -6,6 +6,7 @@ using Rhino.UI;
 /// <summary>
 /// title: Modify a Light's Color
 /// keywords: ['modify', 'lights', 'color']
+/// categories: ['Other']
 /// </summary>
 partial class Examples
 {

@@ -4,6 +4,7 @@ using Rhino.Geometry;
 /// <summary>
 /// title: Justifying Text Entities
 /// keywords: ['justifying', 'text', 'entities']
+/// categories: ['Other']
 /// </summary>
 partial class Examples
 {

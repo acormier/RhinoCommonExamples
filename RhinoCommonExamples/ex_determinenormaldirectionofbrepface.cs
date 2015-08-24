@@ -5,6 +5,7 @@ using Rhino.Commands;
 /// <summary>
 /// title: Determine Normal Direction of Brep Face
 /// keywords: ['determine', 'normal', 'direction', 'brep', 'face']
+/// categories: ['Other']
 /// </summary>
 partial class Examples
 {

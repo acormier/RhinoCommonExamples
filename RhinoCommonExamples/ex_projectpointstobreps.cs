@@ -8,6 +8,7 @@ using Rhino.Geometry.Intersect;
 /// <summary>
 /// title: Projecting Points to Breps
 /// keywords: ['projecting', 'points', 'breps']
+/// categories: ['Other']
 /// </summary>
 partial class Examples
 {

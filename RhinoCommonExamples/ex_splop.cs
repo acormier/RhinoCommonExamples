@@ -2,6 +2,7 @@ using Rhino.DocObjects;
 /// <summary>
 /// title: Space Morph
 /// keywords: ['space', 'morph']
+/// categories: ['Other']
 /// </summary>
 partial class Examples
 {

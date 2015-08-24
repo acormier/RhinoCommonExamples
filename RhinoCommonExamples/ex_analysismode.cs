@@ -5,6 +5,7 @@ using Rhino.Geometry;
 /// <summary>
 /// title: Visual Analysis Modes
 /// keywords: ['visual', 'analysis', 'modes']
+/// categories: ['Other']
 /// </summary>
 partial class Examples
 {

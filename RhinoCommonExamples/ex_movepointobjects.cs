@@ -7,6 +7,7 @@ using Rhino.Geometry;
 /// <summary>
 /// title: Move Points
 /// keywords: ['move', 'points']
+/// categories: ['Other']
 /// </summary>
 partial class Examples
 {

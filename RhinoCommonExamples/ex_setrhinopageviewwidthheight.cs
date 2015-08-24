@@ -4,6 +4,7 @@ using Rhino.Input;
 /// <summary>
 /// title: Set RhinoPageView Width and Height
 /// keywords: ['rhinopageview', 'width', 'height']
+/// categories: ['Other']
 /// </summary>
 partial class Examples
 {

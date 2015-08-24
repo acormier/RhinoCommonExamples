@@ -5,6 +5,7 @@ using Rhino.Input.Custom;
 /// <summary>
 /// title: Enabling Orthogonal Mode
 /// keywords: ['enabling', 'orthogonal', 'mode']
+/// categories: ['Other']
 /// </summary>
 partial class Examples
 {

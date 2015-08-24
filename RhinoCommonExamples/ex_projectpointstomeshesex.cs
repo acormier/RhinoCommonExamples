@@ -8,6 +8,7 @@ using Rhino.DocObjects;
 /// <summary>
 /// title: Project Points to Mesh
 /// keywords: ['project', 'points', 'mesh']
+/// categories: ['Other']
 /// </summary>
 partial class Examples
 {

@@ -1,6 +1,7 @@
 /// <summary>
 /// title: Tweak Colors
 /// keywords: ['tweak', 'colors']
+/// categories: ['Other']
 /// </summary>
 partial class Examples
 {

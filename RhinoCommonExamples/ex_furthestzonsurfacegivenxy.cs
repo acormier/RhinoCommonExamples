@@ -11,6 +11,7 @@ using Rhino.DocObjects;
 /// <summary>
 /// title: Determine Furthest Z on Surface given X Y
 /// keywords: ['determine', 'furthest', 'surface', 'given']
+/// categories: ['Other']
 /// </summary>
 partial class Examples
 {

@@ -3,6 +3,7 @@ using Eto.Forms;
 /// <summary>
 /// title: Export Control Points
 /// keywords: ['export', 'control', 'points']
+/// categories: ['Other']
 /// </summary>
 partial class Examples
 {
