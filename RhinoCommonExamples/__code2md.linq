@@ -28,7 +28,7 @@ var md_header_cs =
       fn => 
         // front matter
         front_matter_start
-        .Concat(File.ReadAllLines(fn).SkipWhile(ln => !ln.Contains("/// <summary>")).Skip(1).TakeWhile(ln => !ln.Contains("/// </summary>")).Select(ln => ln.Replace("/// ", "").Replace("'","")))
+        .Concat(File.ReadAllLines(fn).SkipWhile(ln => !ln.Contains("/// <summary>")).Skip(1).TakeWhile(ln => !ln.Contains("/// </summary>")).Select(ln => ln.Replace("/// ", "")/*.Replace("'","")*/))
         .Concat(front_matter_end)
         
         // cs
@@ -52,6 +52,7 @@ var md_vb =
 var md_py =
   Directory.GetFiles(wiki_files)
     .Where (fn => fn.EndsWith(".txt"))
+    //.Where (fn => File.Exists(Path.Combine(output, Path.GetFileNameWithoutExtension(fn) + ".md")))
     .ToDictionary(
       fn => Path.Combine(output, Path.GetFileNameWithoutExtension(fn) + ".md"),
       fn => 
@@ -69,7 +70,15 @@ foreach(var f in md_vb) {
   File.AppendAllLines(f.Key, f.Value);
 }
 foreach(var f in md_py) {
+  if (!File.Exists(f.Key)) {
+    Console.WriteLine("NOT EXISTS: {0}", f.Key);
+    continue;
+  }
   Console.WriteLine("write {0}", f.Key);
   File.AppendAllLines(f.Key, f.Value);
 }
+
+md_header_cs.Count.Dump("cs");
+md_vb.Count.Dump("vb");
+md_py.Count().Dump("py");
 
