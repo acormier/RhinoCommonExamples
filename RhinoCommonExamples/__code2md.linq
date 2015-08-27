@@ -41,33 +41,36 @@ var md_header_cs =
         .Concat(File.ReadAllLines(fn).SkipWhile(ln => !ln.Contains("/// </summary>")).Skip(1))
         .Concat(new List<string>{"```", "{: #cs .tab-pane .fade .in .active}", ""})
     );
-    
+ 
 var md_vb =
-  Directory.GetFiles(input)
-    .Where (fn => Path.GetFileName(fn).StartsWith("ex_") && fn.EndsWith(".vb"))
-    .Where (fn => files_in_csproj.Select(f => "ex_" + f + ".vb").Contains(Path.GetFileName(fn))) // only files that are in the cs project work
-    .ToDictionary(
-      fn => Path.Combine(output, Path.GetFileNameWithoutExtension(fn).Replace("ex_","") + ".md"),
-      fn => 
-        (new List<string>{"", "```vbnet"})
-        .Concat(File.ReadAllLines(fn).SkipWhile(ln => !ln.Contains("Partial Friend Class Examples")))
-        .Concat(new List<string>{"```", "{: #vb .tab-pane .fade .in}", ""})
-    );
+  files_in_csproj.GroupJoin(
+    Directory.GetFiles(input)
+      .Where (fn => Path.GetFileName(fn).StartsWith("ex_") && fn.EndsWith(".vb")),
+    prjfn => "ex_" + prjfn,
+    vbfn => Path.GetFileNameWithoutExtension(vbfn),
+    (prjfn, vbfn) => new KeyValuePair<string, IEnumerable<string>>(Path.Combine(output, prjfn + ".md"), 
+      (new List<string>{"", "```vbnet"})
+      .Concat(vbfn.FirstOrDefault() == null 
+                ? new List<string>{"' No VB.NET sample available"} 
+                : File.ReadAllLines(vbfn.FirstOrDefault()).SkipWhile(ln => !ln.Contains("Partial Friend Class Examples"))
+             )
+      .Concat(new List<string>{"```", "{: #vb .tab-pane .fade .in}", ""}))
+  );
     
 var md_py =
-  Directory.GetFiles(input)
-    .Where (fn => Path.GetFileName(fn).StartsWith("ex_") && fn.EndsWith(".py"))
-    //.Where (fn => fn.ToLower().Contains("displayconduit"))
-    .Where (fn => files_in_csproj.Select(f => "ex_" + f + ".py").Contains(Path.GetFileName(fn))) // only files that are in the cs project work
-    .ToDictionary(
-      fn => Path.Combine(output, Path.GetFileNameWithoutExtension(fn).Replace("ex_","") + ".md"),
-      fn => 
-        (new List<string>{"", "```python"})
-        .Concat(File.ReadAllLines(fn))
-        .Concat(new List<string>{"```", "{: #py .tab-pane .fade .in}", ""})
-    )
-    //.Dump()
-    ;
+  files_in_csproj.GroupJoin(
+    Directory.GetFiles(input)
+      .Where (fn => Path.GetFileName(fn).StartsWith("ex_") && fn.EndsWith(".py")),
+    prjfn => "ex_" + prjfn,
+    pyfn => Path.GetFileNameWithoutExtension(pyfn),
+    (prjfn, pyfn) => new KeyValuePair<string, IEnumerable<string>>(Path.Combine(output, prjfn + ".md"), 
+      (new List<string>{"", "```python"})
+      .Concat(pyfn.FirstOrDefault() == null 
+                ? new List<string>{"# No Python sample available"} 
+                : File.ReadAllLines(pyfn.FirstOrDefault()).Select(ln => ln)
+             )
+      .Concat(new List<string>{"```", "{: #py .tab-pane .fade .in}", ""}))
+  );
    
 Console.WriteLine();
 Console.WriteLine("write C# files ...");
@@ -89,5 +92,5 @@ foreach(var f in md_py) {
 }
 
 md_header_cs.Count.Dump("cs");
-md_vb.Count.Dump("vb");
+md_vb.Count().Dump("vb");
 md_py.Count().Dump("py");
