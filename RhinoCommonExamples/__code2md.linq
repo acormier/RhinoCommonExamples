@@ -45,7 +45,7 @@ var md_vb =
       fn => 
         (new List<string>{"", "```vbnet"})
         .Concat(File.ReadAllLines(fn).SkipWhile(ln => !ln.Contains("Partial Friend Class Examples")))
-        .Concat(new List<string>{"```", "{: #vb .tab-pane .fade .in .active}", ""})
+        .Concat(new List<string>{"```", "{: #vb .tab-pane .fade .in}", ""})
     );
 
 // python sample still from the wiki data because it hasn't been revised yet.
@@ -58,7 +58,7 @@ var md_py =
       fn => 
         (new List<string>{"", "```python"})
         .Concat(File.ReadAllLines(fn).SkipWhile(ln => !ln.Contains("<code python>")).Skip(1).TakeWhile(ln => !ln.Contains("</code>")))
-        .Concat(new List<string>{"```", "{: #py .tab-pane .fade .in .active}", ""})
+        .Concat(new List<string>{"```", "{: #py .tab-pane .fade .in}", ""})
     );
     
 foreach(var f in md_header_cs) {
@@ -81,4 +81,3 @@ foreach(var f in md_py) {
 md_header_cs.Count.Dump("cs");
 md_vb.Count.Dump("vb");
 md_py.Count().Dump("py");
-
