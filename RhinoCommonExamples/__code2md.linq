@@ -15,7 +15,6 @@
 
 var output = @"Z:\src_osx\mcneel.com\RhinoDocsMainGhpSite\developer-rhino3d-com\_samples\rhinocommon";
 var input = @"Z:\src_osx\mcneel.com\RhinoCommonSamples\RhinoCommonExamples\RhinoCommonExamples";
-var wiki_files = @"Z:\src_osx\mcneel.com\wikidata\pages\developer\rhinocommonsamples"; // still need the wiki files until I redo the python samples
 
 var front_matter_start = new List<string>{"---", "layout: code-sample", "author:", "platforms: ['Cross-Platform']", "apis: ['RhinoCommon']", "languages: ['C#', 'Python', 'VB.NET']"};
 var front_matter_end = new List<string>{"description:", "order: 1", "---"};
@@ -54,20 +53,22 @@ var md_vb =
         .Concat(File.ReadAllLines(fn).SkipWhile(ln => !ln.Contains("Partial Friend Class Examples")))
         .Concat(new List<string>{"```", "{: #vb .tab-pane .fade .in}", ""})
     );
-
-// python sample still from the wiki data because it hasn't been revised yet.
+    
 var md_py =
-  Directory.GetFiles(wiki_files)
-    .Where (fn => fn.EndsWith(".txt"))
-    .Where (fn => files_in_csproj.Select(f => f + ".txt").Contains(Path.GetFileName(fn))) // only files that are in the project work
+  Directory.GetFiles(input)
+    .Where (fn => Path.GetFileName(fn).StartsWith("ex_") && fn.EndsWith(".py"))
+    //.Where (fn => fn.ToLower().Contains("displayconduit"))
+    .Where (fn => files_in_csproj.Select(f => "ex_" + f + ".py").Contains(Path.GetFileName(fn))) // only files that are in the cs project work
     .ToDictionary(
-      fn => Path.Combine(output, Path.GetFileNameWithoutExtension(fn) + ".md"),
+      fn => Path.Combine(output, Path.GetFileNameWithoutExtension(fn).Replace("ex_","") + ".md"),
       fn => 
         (new List<string>{"", "```python"})
-        .Concat(File.ReadAllLines(fn).SkipWhile(ln => !ln.Contains("<code python>")).Skip(1).TakeWhile(ln => !ln.Contains("</code>")))
+        .Concat(File.ReadAllLines(fn))
         .Concat(new List<string>{"```", "{: #py .tab-pane .fade .in}", ""})
-    );
-    
+    )
+    //.Dump()
+    ;
+   
 Console.WriteLine();
 Console.WriteLine("write C# files ...");
 foreach(var f in md_header_cs) {
