@@ -20,9 +20,15 @@ var wiki_files = @"Z:\src_osx\mcneel.com\wikidata\pages\developer\rhinocommonsam
 var front_matter_start = new List<string>{"---", "layout: code-sample", "author:", "platforms: ['Cross-Platform']", "apis: ['RhinoCommon']", "languages: ['C#', 'Python', 'VB.NET']"};
 var front_matter_end = new List<string>{"description:", "order: 1", "---"};
             
+var files_in_csproj =
+  File.ReadAllLines(Path.Combine(input, "RhinoCommonExamples.csproj"))
+    .Where (ln => Regex.Match(ln, "(?<=<Compile Include=\"ex_).*(?=\\.cs\" />)").Success)
+    .Select (ln => Regex.Match(ln, "(?<=<Compile Include=\"ex_).*(?=\\.cs\" />)").Value);
+    
 var md_header_cs =
   Directory.GetFiles(input)
     .Where (fn => Path.GetFileName(fn).StartsWith("ex_") && fn.EndsWith(".cs"))
+    .Where (fn => files_in_csproj.Select(f => "ex_" + f + ".cs").Contains(Path.GetFileName(fn))) // only files that are in the project work
     .ToDictionary(
       fn => Path.Combine(output, Path.GetFileNameWithoutExtension(fn).Replace("ex_","") + ".md"),
       fn => 
@@ -40,6 +46,7 @@ var md_header_cs =
 var md_vb =
   Directory.GetFiles(input)
     .Where (fn => Path.GetFileName(fn).StartsWith("ex_") && fn.EndsWith(".vb"))
+    .Where (fn => files_in_csproj.Select(f => "ex_" + f + ".vb").Contains(Path.GetFileName(fn))) // only files that are in the cs project work
     .ToDictionary(
       fn => Path.Combine(output, Path.GetFileNameWithoutExtension(fn).Replace("ex_","") + ".md"),
       fn => 
@@ -52,7 +59,7 @@ var md_vb =
 var md_py =
   Directory.GetFiles(wiki_files)
     .Where (fn => fn.EndsWith(".txt"))
-    //.Where (fn => File.Exists(Path.Combine(output, Path.GetFileNameWithoutExtension(fn) + ".md")))
+    .Where (fn => files_in_csproj.Select(f => f + ".txt").Contains(Path.GetFileName(fn))) // only files that are in the project work
     .ToDictionary(
       fn => Path.Combine(output, Path.GetFileNameWithoutExtension(fn) + ".md"),
       fn => 
@@ -61,19 +68,21 @@ var md_py =
         .Concat(new List<string>{"```", "{: #py .tab-pane .fade .in}", ""})
     );
     
+Console.WriteLine();
+Console.WriteLine("write C# files ...");
 foreach(var f in md_header_cs) {
   Console.WriteLine("write {0}", f.Key);
   File.WriteAllLines(f.Key, f.Value);
 }
+Console.WriteLine();
+Console.WriteLine("write vb files ...");
 foreach(var f in md_vb) {
   Console.WriteLine("write {0}", f.Key);
   File.AppendAllLines(f.Key, f.Value);
 }
+Console.WriteLine();
+Console.WriteLine("write py files ...");
 foreach(var f in md_py) {
-  if (!File.Exists(f.Key)) {
-    Console.WriteLine("NOT EXISTS: {0}", f.Key);
-    continue;
-  }
   Console.WriteLine("write {0}", f.Key);
   File.AppendAllLines(f.Key, f.Value);
 }
