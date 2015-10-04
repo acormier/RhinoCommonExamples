@@ -1,4 +1,6 @@
 using System;
+using Rhino;
+using Rhino.Geometry;
 /// <summary>
 /// title: Add Nested Block
 /// keywords: ['add', 'nested', 'block']

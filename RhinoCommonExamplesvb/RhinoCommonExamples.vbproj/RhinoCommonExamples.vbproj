@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{49AB8156-38AE-4CE9-AD7D-CEF6171C769A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace></RootNamespace>
+    <AssemblyName>RhinoCommonExamples</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>false</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="RhinoCommon">
+      <HintPath>..\..\..\..\..\..\..\Applications\RhinoWIP.app\Contents\Resources\RhinoCommon.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Rhino.UI">
+      <HintPath>..\..\..\..\..\..\..\Applications\RhinoWIP.app\Contents\Resources\Rhino.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Eto">
+      <HintPath>..\..\..\..\..\..\..\Applications\RhinoWIP.app\Contents\Resources\Eto.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Drawing" />
+    <Import Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="RhinoCommonExamplesCommand.vb" />
+    <Compile Include="RhinoCommonExamplesPlugin.vb" />
+    <Compile Include="ex_addcircle.vb" />
+    <Compile Include="examples_csCommand.vb" />
+    <Compile Include="ex_activeviewport.vb" />
+    <Compile Include="ex_addbrepbox.vb" />
+    <Compile Include="ex_addchildlayer.vb" />
+    <Compile Include="ex_addbackgroundbitmap.vb" />
+    <Compile Include="ex_addcone.vb" />
+    <Compile Include="ex_addcylinder.vb" />
+    <Compile Include="ex_addclippingplane.vb" />
+    <Compile Include="ex_addlayer.vb" />
+    <Compile Include="ex_addlayout.vb" />
+    <Compile Include="ex_addline.vb" />
+    <Compile Include="ex_addlineardimension.vb" />
+    <Compile Include="ex_addlineardimension2.vb" />
+    <Compile Include="ex_addmaterial.vb" />
+    <Compile Include="ex_addmesh.vb" />
+    <Compile Include="ex_addnamedview.vb" />
+    <Compile Include="ex_addnurbscircle.vb" />
+    <Compile Include="ex_addnurbscurve.vb" />
+    <Compile Include="ex_addobjectstogroup.vb" />
+    <Compile Include="ex_addsphere.vb" />
+    <Compile Include="ex_addtorus.vb" />
+    <Compile Include="ex_addtruncatedcone.vb" />
+    <Compile Include="ex_advanceddisplay.vb" />
+    <Compile Include="ex_arclengthpoint.vb" />
+    <Compile Include="ex_booleandifference.vb" />
+    <Compile Include="ex_blockinsertionpoint.vb" />
+    <Compile Include="ex_commandlineoptions.vb" />
+    <Compile Include="ex_constrainedcopy.vb" />
+    <Compile Include="ex_createblock.vb" />
+    <Compile Include="ex_curveboundingbox.vb" />
+    <Compile Include="ex_findobjectsbyname.vb" />
+    <Compile Include="ex_hatchcurve.vb" />
+    <Compile Include="ex_intersectcurves.vb" />
+    <Compile Include="ex_intersectlines.vb" />
+    <Compile Include="ex_insertknot.vb" />
+    <Compile Include="ex_instancedefinitionobjects.vb" />
+    <Compile Include="ex_isocurvedensity.vb" />
+    <Compile Include="ex_movecplane.vb" />
+    <Compile Include="ex_objectdecoration.vb" />
+    <Compile Include="ex_objectdisplaymode.vb" />
+    <Compile Include="ex_orientonsrf.vb" />
+    <Compile Include="ex_sellayer.vb" />
+    <Compile Include="ex_showsurfacedirection.vb" />
+    <Compile Include="ex_sweep1.vb" />
+    <Compile Include="ex_unrollsurface.vb" />
+    <Compile Include="ex_unrollsurface2.vb" />
+    <Compile Include="ex_explodehatch.vb" />
+    <Compile Include="ex_zoomtoobject.vb" />
+    <Compile Include="ex_dividebylengthpoints.vb" />
+    <Compile Include="ex_determineobjectlayer.vb" />
+    <Compile Include="ex_dupborder.vb" />
+    <Compile Include="ex_edittext.vb" />
+    <Compile Include="ex_addannotationtext.vb" />
+    <Compile Include="ex_isbrepbox.vb" />
+    <Compile Include="ex_addnestedblock.vb" />
+    <Compile Include="ex_splop.vb" />
+    <Compile Include="ex_addtexture.vb" />
+    <Compile Include="ex_addmeshbox.vb" />
+    <Compile Include="ex_addtwistedcube.vb" />
+    <Compile Include="ex_boxshell.vb" />
+    <Compile Include="ex_circlecenter.vb" />
+    <Compile Include="ex_conduitdrawshadedmesh.vb" />
+    <Compile Include="ex_createspiral.vb" />
+    <Compile Include="ex_exportcontrolpoints.vb" />
+    <Compile Include="ex_extractrendermesh.vb" />
+    <Compile Include="ex_extrudebrepface.vb" />
+    <Compile Include="ex_getmultiplewithoptions.vb" />
+    <Compile Include="ex_instancearchivefilestatus.vb" />
+    <Compile Include="ex_linebetweencurves.vb" />
+    <Compile Include="ex_movegripobjects.vb" />
+    <Compile Include="ex_objectcolor.vb" />
+    <Compile Include="ex_transformbrep.vb" />
+    <Compile Include="ex_tweakcolors.vb" />
+    <Compile Include="ex_tweencurve.vb" />
+    <Compile Include="ex_addradialdimension.vb" />
+    <Compile Include="ex_analysismode.vb" />
+    <Compile Include="ex_arraybydistance.vb" />
+    <Compile Include="ex_rtreeclosestpoint.vb" />
+    <Compile Include="ex_conduitarrowheads.vb" />
+    <Compile Include="ex_copygroups.vb" />
+    <Compile Include="ex_createmeshfrombrep.vb" />
+    <Compile Include="ex_createsurfacefrompointsandknots.vb" />
+    <Compile Include="ex_crvdeviation.vb" />
+    <Compile Include="ex_brepfromcurvebbox.vb" />
+    <Compile Include="ex_findcurveparameteratpoint.vb" />
+    <Compile Include="ex_reversecurve.vb" />
+    <Compile Include="ex_curvesurfaceintersect.vb" />
+    <Compile Include="ex_customgeometryfilter.vb" />
+    <Compile Include="ex_custompython.vb" />
+    <Compile Include="ex_customundo.vb" />
+    <Compile Include="ex_deleteblock.vb" />
+    <Compile Include="ex_determinecurrentlanguage.vb" />
+    <Compile Include="ex_changedimensionstyle.vb" />
+    <Compile Include="ex_displayconduit.vb" />
+    <Compile Include="ex_displayorder.vb" />
+    <Compile Include="ex_displayprecision.vb" />
+    <Compile Include="ex_dividecurvebysegments.vb" />
+    <Compile Include="ex_dividecurvestraight.vb" />
+    <Compile Include="ex_movepointobjects.vb" />
+    <Compile Include="ex_movepointobjectsnonuniform.vb" />
+    <Compile Include="ex_drawoverlay.vb" />
+    <Compile Include="ex_drawstring.vb" />
+    <Compile Include="ex_duplicateobject.vb" />
+    <Compile Include="ex_dupmeshboundary.vb" />
+    <Compile Include="ex_edgesrf.vb" />
+    <Compile Include="ex_furthestzonsurfacegivenxy.vb" />
+    <Compile Include="ex_determinenormaldirectionofbrepface.vb" />
+    <Compile Include="ex_extendcurve.vb" />
+    <Compile Include="ex_extendsurface.vb" />
+    <Compile Include="ex_extractisocurve.vb" />
+    <Compile Include="ex_filletcurves.vb" />
+    <Compile Include="ex_getangle.vb" />
+    <Compile Include="ex_getpointdynamicdraw.vb" />
+    <Compile Include="ex_readdimensiontext.vb" />
+    <Compile Include="ex_getuuid.vb" />
+    <Compile Include="ex_intersectlinecircle.vb" />
+    <Compile Include="ex_isplanarsurfaceinplane.vb" />
+    <Compile Include="ex_leader.vb" />
+    <Compile Include="ex_locklayer.vb" />
+    <Compile Include="ex_loft.vb" />
+    <Compile Include="ex_contourcurves.vb" />
+    <Compile Include="ex_drawmesh.vb" />
+    <Compile Include="ex_meshvolume.vb" />
+    <Compile Include="ex_modifylightcolor.vb" />
+    <Compile Include="ex_modifyobjectcolor.vb" />
+    <Compile Include="ex_moveobjectstocurrentlayer.vb" />
+    <Compile Include="ex_nurbscurveincreasedegree.vb" />
+    <Compile Include="ex_nurbssurfaceincreasedegree.vb" />
+    <Compile Include="ex_objectiterator.vb" />
+    <Compile Include="ex_renameobject.vb" />
+    <Compile Include="ex_offsetcurve.vb" />
+    <Compile Include="ex_ortho.vb" />
+    <Compile Include="ex_pickpoints.vb" />
+    <Compile Include="ex_pickpoint.vb" />
+    <Compile Include="ex_planesurface.vb" />
+    <Compile Include="ex_prepostpick.vb" />
+    <Compile Include="ex_principalcurvature.vb" />
+    <Compile Include="ex_instancedefinitionnames.vb" />
+    <Compile Include="ex_instancedefinitiontree.vb" />
+    <Compile Include="ex_projectpointstobreps.vb" />
+    <Compile Include="ex_projectpointstomeshesex.vb" />
+    <Compile Include="ex_renameblock.vb" />
+    <Compile Include="ex_renamelayer.vb" />
+    <Compile Include="ex_reparameterizecrv.vb" />
+    <Compile Include="ex_replacecolordialog.vb" />
+    <Compile Include="ex_replacehatchpattern.vb" />
+    <Compile Include="ex_setrhinopageviewwidthheight.vb" />
+    <Compile Include="ex_selectobjectsinobjectgroups.vb" />
+    <Compile Include="ex_setactiveview.vb" />
+    <Compile Include="ex_setviewname.vb" />
+    <Compile Include="ex_singlecolorbackfaces.vb" />
+    <Compile Include="ex_splitbrepwithplane.vb" />
+    <Compile Include="ex_spritedrawing.vb" />
+    <Compile Include="ex_surfacefromcorners.vb" />
+    <Compile Include="ex_textjustify.vb" />
+    <Compile Include="ex_tightboundingbox.vb" />
+    <Compile Include="ex_userdata.vb" />
+    <Compile Include="ex_viewportresolution.vb" />
+    <Compile Include="__ex_rnd.vb" />
+    <Compile Include="GetScaleXform.vb" />
+    <Compile Include="csTransformCommand.vb" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+</Project>

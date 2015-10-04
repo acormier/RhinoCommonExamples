@@ -17,21 +17,22 @@
   <Namespace>System.Reactive.Threading.Tasks</Namespace>
 </Query>
 
-var examples_dir = @"Z:\src_osx\mcneel.com\RhinoCommonSamples\RhinoCommonExamples\RhinoCommonExamples";
+var input = @"Z:\src_osx\mcneel.com\RhinoCommonSamples\RhinoCommonExamples\RhinoCommonExamples";
 
-var files_with_no_categories = 
-  Directory.GetFiles(examples_dir)
-    .Where (fn => Path.GetFileName(fn).StartsWith("ex_") && fn.EndsWith(".cs"))
-    .Where (fn => !File.ReadAllLines(fn).Any (ln => ln.StartsWith("/// categories: ['")))
-    .ToDictionary(
-      fn => fn,
-      fn => File.ReadAllLines(fn).TakeWhile(ln => !ln.Contains("/// </summary>"))
-            .Concat("/// categories: ['Other']")
-            .Concat(File.ReadAllLines(fn).SkipWhile(ln2 => !ln2.Contains("/// </summary>")))
-    );
-    //.Dump();
-  
-/*foreach( var f in files_with_no_categories) {
-  Console.WriteLine("write {0} ...", f.Key);
-  File.WriteAllLines(f.Key, f.Value);
-}*/
+var files_in_csproj =
+  File.ReadAllLines(Path.Combine(input, "RhinoCommonExamples.csproj"))
+    .Where (ln => Regex.Match(ln, "(?<=<Compile Include=\")ex_.*\\.cs(?=\" />)").Success)
+    .Select (ln => Regex.Match(ln, "(?<=<Compile Include=\")ex_.*\\.cs(?=\" />)").Value)
+    .Select(Path.GetFileNameWithoutExtension)
+    //.Take(5).Dump()
+    ;
+    
+var py_files =
+  Directory.GetFiles(input)
+  .Where (fn => Path.GetFileName(fn).StartsWith("ex_") && fn.EndsWith(".py"))
+  .Where (fn => File.ReadAllLines(fn).Any (ln => ln.ToLower().Contains("rhinoscriptsyntax")))
+  .Select (Path.GetFileNameWithoutExtension)
+  .Where (fn => files_in_csproj.Contains(fn))
+  //.Take(5)
+  .Dump()
+  ;
