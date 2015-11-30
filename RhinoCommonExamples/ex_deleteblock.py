@@ -7,8 +7,8 @@ def Delete():
     if not instanceDefinition:
         print "{0} block does not exist".format(blockName)
         return
-        
+
     rs.DeleteBlock(blockName)
-    
+
 if __name__ == "__main__":
     Delete()

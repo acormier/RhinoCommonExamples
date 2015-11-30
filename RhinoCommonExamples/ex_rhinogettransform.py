@@ -35,14 +35,8 @@ def RunCommand():
   if gt.CommandResult() != Result.Success:
     return gt.CommandResult()
 
-  list = Rhino.Collections.TransformObjectList()
-  for id in objectIds:
-      rhobj = rs.coercerhinoobject(id, True, True)
-      list.Add(rhobj)
-  gt.AddTransformObjects(list)
-
   xform = gt.CalculateTransform(gt.View().ActiveViewport, gt.Point())
-  TransformObjects(list, xform, False, False)
+  rs.TransformObjects(objectIds, xform, False)
   doc.Views.Redraw()
   return Result.Success
 

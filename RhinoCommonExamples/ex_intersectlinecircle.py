@@ -28,7 +28,7 @@ def RunCommand():
       point1.X, point1.Y, point1.Z, point2.X, point2.Y, point2.Z)
     doc.Objects.AddPoint(point1)
     doc.Objects.AddPoint(point2)
-    
+
   print message
   doc.Views.Redraw()
 

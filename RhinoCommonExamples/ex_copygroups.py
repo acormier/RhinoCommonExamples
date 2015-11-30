@@ -58,6 +58,6 @@ def RunCommand():
       RhinoUpdateObjectGroups(obj, group_map)
   doc.Views.Redraw()
   return Result.Success
-  
+
 if __name__ == "__main__":
     RunCommand()

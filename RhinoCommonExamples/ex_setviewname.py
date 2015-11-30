@@ -6,7 +6,7 @@ def RunCommand():
   view = doc.Views.ActiveView
   if view == None:
     return Result.Failure
- 
+
   view.MainViewport.Name = "Facade"
   return Result.Success
 

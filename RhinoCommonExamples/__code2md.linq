@@ -57,10 +57,13 @@ var md_vb =
       .Concat(new List<string>{"```", "{: #vb .tab-pane .fade .in}", ""}))
   );
     
+var bad_py_files = new List<string> {"ex_addlayout", "ex_conduitbitmap", "ex_extractthumbnail", "ex_intersectlinecircle", 
+  "ex_pickpoints", "ex_readdimensiontext", "ex_replacecolordialog", "ex_screencaptureview", "ex_setrhinopageviewwidthheight"};
 var md_py =
   files_in_csproj.GroupJoin(
     Directory.GetFiles(input)
-      .Where (fn => Path.GetFileName(fn).StartsWith("ex_") && fn.EndsWith(".py")),
+      .Where (fn => Path.GetFileName(fn).StartsWith("ex_") && fn.EndsWith(".py"))
+      .Where (fn => !bad_py_files.Contains(Path.GetFileNameWithoutExtension(fn))),
     prjfn => "ex_" + prjfn,
     pyfn => Path.GetFileNameWithoutExtension(pyfn),
     (prjfn, pyfn) => new KeyValuePair<string, IEnumerable<string>>(Path.Combine(output, prjfn + ".md"), 

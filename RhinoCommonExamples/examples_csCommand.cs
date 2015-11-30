@@ -26,11 +26,9 @@ namespace examples_cs
       Test(Examples.AddChildLayer, doc);
       Test(Examples.AddCircle, doc);
       Test(Examples.AddCone, doc);
-      Test(Examples.AddCylinder, doc);*/
-
-      //Test(Examples.AddBackgroundBitmap, doc); // doesn't work.  Silently fails
-
-      /*Test(Examples.AddClippingPlane, doc);
+      Test(Examples.AddCylinder, doc);
+      Test(Examples.AddBackgroundBitmap, doc);
+      Test(Examples.AddClippingPlane, doc);
       Test(Examples.AddLayer, doc);
       Test(Examples.AddLayout, doc);
       Test(Examples.AddLine, doc);

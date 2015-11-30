@@ -7,7 +7,7 @@ import System as s
 def RunCommand():
   srfid = rs.GetObject("select surface", rs.filter.surface | rs.filter.polysurface)
   if not srfid: return
- 
+
   crvid = rs.GetObject("select curve", rs.filter.curve)
   if not crvid: return
 
@@ -15,7 +15,7 @@ def RunCommand():
   if result == None:
     print "no intersection"
     return
-  
+
   curves, points = result
   for curve in curves:
     doc.Objects.AddCurve(rs.coercecurve(curve))

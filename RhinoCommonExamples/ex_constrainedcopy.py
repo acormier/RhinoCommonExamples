@@ -16,7 +16,7 @@ def constrainedcopy():
         return
     isplanar, plane = base_curve.TryGetPlane()
     if not isplanar: return
-    
+
     gp = Rhino.Input.Custom.GetPoint()
     gp.SetCommandPrompt("Offset point")
     gp.DrawLineFromPoint(first_point, True)

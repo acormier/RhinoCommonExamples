@@ -3,9 +3,9 @@ from scriptcontext import doc
 
 def rename():
     layerName = rs.GetString("Name of layer to rename")
-    
+
     matchingLayers = [layer for layer in doc.Layers if layer.Name == layerName]
-    
+
     layerToRename = None
     if len(matchingLayers) == 0:
         print "Layer \"{0}\" does not exist.".format(layerName)
@@ -18,13 +18,13 @@ def rename():
             print "({0}) {1}".format(
                 i+1, matchingLayers[i].FullPath.replace("::", "->"))
             i += 1
-            
+
         selectedLayer = rs.GetInteger(
             "which layer?", -1, 1, len(matchingLayers))
         if selectedLayer == None:
             return
         layerToRename = matchingLayers[selectedLayer - 1]
-    
+
     layerName = rs.GetString("New layer name")
     layerToRename.Name = layerName
     layerToRename.CommitChanges()
@@ -32,4 +32,3 @@ def rename():
 
 if __name__ == "__main__":
     rename()
-        

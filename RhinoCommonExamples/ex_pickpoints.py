@@ -19,10 +19,10 @@ def RunCommand():
       break
     conduitPoints.append(ConduitPoint(gp.Point()))
     doc.Views.Redraw()
-    
+
   gcp = GetConduitPoint(conduitPoints)
   result = Rhino.Commands.Result.Success
-  
+
   while True:
     gcp.SetCommandPrompt("select conduit point. (<ESC> to exit)")
     gcp.AcceptNothing(True)
@@ -30,7 +30,7 @@ def RunCommand():
     doc.Views.Redraw()
     if gcp.CommandResult() != Rhino.Commands.Result.Success:
       break
-    
+
   return Rhino.Commands.Result.Success
 
 class ConduitPoint():

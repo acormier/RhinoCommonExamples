@@ -5,8 +5,8 @@ from Rhino.Geometry import Point3d
 from scriptcontext import doc
 
 def RunCommand():
-  points = [Point3d(0, 0, 0), Point3d(0, 0, 1), Point3d(0, 1, 0), 
-    Point3d(0, 1, 1), Point3d(1, 0, 0), Point3d(1, 0, 1), 
+  points = [Point3d(0, 0, 0), Point3d(0, 0, 1), Point3d(0, 1, 0),
+    Point3d(0, 1, 1), Point3d(1, 0, 0), Point3d(1, 0, 1),
     Point3d(1, 1, 0), Point3d(1, 1, 1)]
 
   print "Before sort ..."

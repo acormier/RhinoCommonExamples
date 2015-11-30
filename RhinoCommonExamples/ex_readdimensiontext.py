@@ -15,6 +15,7 @@ def RunCommand():
   if annotation == None or not isinstance(annotation, AnnotationObjectBase):
     return Result.Failure
 
+  print dir(annotation)
   print "Annotation text = {0}".format(annotation.DisplayText)
 
   return Result.Success
